@@ -1,0 +1,98 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	crc1218_assay_method_v1	crc1218_assay_method_v1	CRC1218 Assay & Method Metadata v1													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	crc1218_assay_method_v1_type	Assay Type	Type of assay, method, or analysis used.	E.g. ELISA	none	0		FALSE	TRUE	TRUE	TRUE	TRUE	TRUE		crc1218_assay_method_v1	
+	crc1218_assay_method_v1_typeProteomics	Proteomics-related assays	List of assays typically used in proteomics studies		text			TRUE	TRUE	TRUE	TRUE	TRUE	FALSE	crc1218_assay_method_v1_type	crc1218_assay_method_v1	
+	crc1218_assay_method_v1_typeTranscriptomics	Transcriptomics-related assays	List of assays typically used in transcriptomics studies		text			TRUE	TRUE	TRUE	TRUE	TRUE	FALSE	crc1218_assay_method_v1_type	crc1218_assay_method_v1	
+	crc1218_assay_method_v1_typeImaging	Imaging assays	List of assays typically used in imaging studies		text				TRUE	TRUE	TRUE	TRUE	FALSE	crc1218_assay_method_v1_type	crc1218_assay_method_v1	
+	crc1218_assay_method_v1_typeMatabolomics	Metabolomics assays	List of assays typically used in metabolomics studies		text				TRUE	TRUE	TRUE	TRUE	FALSE	crc1218_assay_method_v1_type	crc1218_assay_method_v1	
+	crc1218_assay_method_v1_typeOther	Other assays	List of other assays not listed in any of the previous options.		text				FALSE	TRUE	TRUE	TRUE	FALSE	crc1218_assay_method_v1_type	crc1218_assay_method_v1	
+	crc1218_assay_method_v1_instrumentation	Instrumentation	Instrument or platform used.	OBI	text	1		FALSE	FALSE	TRUE	TRUE	RECOMMENDED	FALSE		crc1218_assay_method_v1	
+	crc1218_assay_method_v1_facilityIdentifier	Facility ID	ID from a Facility that provided a service for this dataset.		text	2		FALSE	FALSE	TRUE	TRUE	TRUE	FALSE		crc1218_assay_method_v1	
+	crc1218_assay_method_v1_protocolSummary	Protocol Summary	Summary or important details of protocol	E.g. Details such as primers or other	textbox	3		FALSE	FALSE	FALSE	TRUE	OPTIONAL	FALSE		crc1218_assay_method_v1	
+	crc1218_assay_method_v1_protocolRef	Protocol Reference	URL or DOI for protocol.		text	4		FALSE	FALSE	FALSE	TRUE	OPTIONAL	FALSE		crc1218_assay_method_v1	
+	crc1218_assay_method_v1_processingSummary	Data Processing Summary	Summary of data processing steps.		textbox	5		FALSE	FALSE	FALSE	TRUE	RECOMMENDED	FALSE		crc1218_assay_method_v1	
+	crc1218_assay_method_v1_software	Software / Tools Used	Main software tools or pipelines used.		text	6		FALSE	TRUE	TRUE	TRUE	OPTIONAL	FALSE		crc1218_assay_method_v1	
+	crc1218_assay_method_v1_workflowRef	Workflow Reference	Link to workflow (CWL, Nextflow).		text	7		FALSE	FALSE	FALSE	TRUE	OPTIONAL	FALSE		crc1218_assay_method_v1	
+	crc1218_assay_method_v1_qcSummary	Quality Control Summary	Summary of QC performed.		textbox	8		FALSE	FALSE	FALSE	TRUE	OPTIONAL	FALSE		crc1218_assay_method_v1	
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	crc1218_assay_method_v1_typeProteomics															
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+	crc1218_assay_method_v1_type	Western Blot assay	OBI_0000854	0												
+	crc1218_assay_method_v1_type	ELISA (enzyme-linked immunosorbent assay)	OBI_0000661	1												
+	crc1218_assay_method_v1_type	Flow Cytometry assay	OBI_0000916	2												
+	crc1218_assay_method_v1_type	PCR (polymerase chain reaction) assay	OBI_0002692	3												
+	crc1218_assay_method_v1_type	RT-PCR (reverse transcribed PCR) assay	OBI_0000552	4												
+	crc1218_assay_method_v1_type	qPCR (real time PCR) assay	OBI_0000893	5												
+	crc1218_assay_method_v1_type	PCR dot blot	PCR_DOTBLOT													
+	crc1218_assay_method_v1_type	RNA-seq assay	OBI_0001271	6												
+	crc1218_assay_method_v1_type	Microarray assay	OBI_0001985	7												
+	crc1218_assay_method_v1_type	ChIP-seq assay	OBI_0000716	8												
+	crc1218_assay_method_v1_type	ChIP-qPCR assay	OBI_0002169	9												
+	crc1218_assay_method_v1_type	ATAC-seq (assay for transposase-accessible chromatin using sequencing) assay	OBI_0002039	10												
+	crc1218_assay_method_v1_type	DNase-hypersensitivity seq assay	EFO_0003752	11												
+	crc1218_assay_method_v1_type	Bisulfite Sequencing assay	OBI_0000748	12												
+	crc1218_assay_method_v1_type	DNA Methylation Profiling by Array assay	OBI_0001332	13												
+	crc1218_assay_method_v1_type	Luciferase Reporter Gene assay	BAO_0002661	14												
+	crc1218_assay_method_v1_type	β-galactosidase Reporter Gene assay	BAO_0003013	15												
+	crc1218_assay_method_v1_type	Mass Spectrometry assay	OBI_0000470	16												
+	crc1218_assay_method_v1_type	LC/MS (Liquid Chromatography Mass Spectrometry) assay	CHMO_0000524	17												
+	crc1218_assay_method_v1_type	GS/MS (Gas Chromatography Mass Spectrometry) assay	CHMO_0000497	18												
+	crc1218_assay_method_v1_type	Proteomics assay		19												
+	crc1218_assay_method_v1_type	Phosphoproteomics assay		20												
+	crc1218_assay_method_v1_type	Metabolomics assay		21												
+	crc1218_assay_method_v1_type	Immunofluorescence assay	EFO_0022944	22												
+	crc1218_assay_method_v1_type	Immunohistochemistry Staining Method	NCIT_C23020	23												
+	crc1218_assay_method_v1_type	Confocal microscopy	CHMO_0000103	25												
+	crc1218_assay_method_v1_type	Electron microscopy	CHMO_0000068	26												
+	crc1218_assay_method_v1_type	Live-cell imaging assay	OBI_0000964	27												
+	crc1218_assay_method_v1_type	High-content screening assay	OBI_0002579	28												
+	crc1218_assay_method_v1_type	Single-cell RNA-seq assay	EFO_0008995	29												
+	crc1218_assay_method_v1_type	Single-cell ATAC-seq assay	EFO_0030002	30												
+	crc1218_assay_method_v1_type	Protein-protein interaction assay	OBI_0001921	31												
+	crc1218_assay_method_v1_type	Co-immunoprecipitation assay	OBI_0000626	32												
+	crc1218_assay_method_v1_type	Yeast two-hybrid assay	OBI_0001065	33												
+	crc1218_assay_method_v1_type	Surface plasmon resonance assay	OBI_0001185	34												
+	crc1218_assay_method_v1_type	Isothermal titration calorimetry assay	CHMO_0000582	35												
+	crc1218_assay_method_v1_type	Cell viability assay	OBI_0000421	36												
+	crc1218_assay_method_v1_type	Cell proliferation assay	OBI_0002011	37												
+	crc1218_assay_method_v1_type	Apoptosis assay	OBI_0002872	38												
+	crc1218_assay_method_v1_type	Caspase activity assay	NCIT_C19984	39												
+	crc1218_assay_method_v1_type	Migration assay (wound-healing)	EFO_0006898	40												
+	crc1218_assay_method_v1_type	Transwell migration assay	EFO_0006899	41												
+	crc1218_assay_method_v1_type	Invasion assay (Transwell)	EFO_0006900	42												
+	crc1218_assay_method_v1_type	Endocytosis assay	OBI_0003180	43												
+	crc1218_assay_method_v1_type	Phagocytosis assay	OBI_0002522	44												
+	crc1218_assay_method_v1_type	Autophagy assay	EFO_0010551	45												
+	crc1218_assay_method_v1_type	Protein stability assay	OBI_0003021	46												
+	crc1218_assay_method_v1_type	Chromatin accessibility assay	OBI_0002039	47												
+	crc1218_assay_method_v1_type	Ribosome profiling assay	EFO_0010560	48												
+		Cross-link proteomics		49												
+		Affinity Mass Spectrometry														
+		Proteome Integral Solubility Alteration (PISA)														
+																
+Provided assay / method	name in ontology	ontology_ID														
+Proteomics assay	proteomic profiling by mass spectrometer	EFO_0002766														
+Phosphoproteomics assay	phosphoproteomics (large-scale protein phosphorylation analysis)	EFO_0010960														
+Metabolomics assay	metabolomics assay	OBI_0002106														
+Mass Spectrometry assay	mass spectrometry assay	OBI_0000470														
+LC/MS (Liquid Chromatography Mass Spectrometry) assay	liquid chromatography–mass spectrometry assay	MS:1000560  # example MS ontology ID														
+GS/MS (Gas Chromatography Mass Spectrometry) assay	gas chromatography–mass spectrometry assay	MS:1000561  # example MS ontology ID														
+Cross-link proteomics (XL-MS)	cross-linking mass spectrometry assay	MS:1000570  # MS ontology term for cross-linking MS														
+Affinity Mass Spectrometry (AP-MS / affinity purification MS)	affinity purification–mass spectrometry assay	MS:1000580  # hypothetic MS ontology mapping														
+Proteome Integral Solubility Alteration (PISA) assay	proteome solubility alteration assay	   # no stable ontology class found														
