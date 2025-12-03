@@ -1,0 +1,50 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	crc1218_analysis_method_v1	crc1218_analysis_method_v1	CRC1218 Analysis Method Metadata v1													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	crc1218_analysis_method_v1_processingSummary	Data Processing Summary	Summary of data processing steps.		textbox	0		FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_analysis_method_v1	
+	crc1218_analysis_method_v1_software	Software	Main software tools or pipelines used for data analysis/processing.	E.g. GraphPad Prism, R	text	1		TRUE	TRUE	TRUE	TRUE	TRUE	FALSE		crc1218_analysis_method_v1	
+	crc1218_analysis_method_v1_softwarePackages	Additional packages	If relevant, mention the packages and versions used with the above mentioned software.	E.g. Python: NumPy, Pandas; R: tidyverse, ggplot2	textbox	2		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_analysis_method_v1	
+	crc1218_analysis_method_v1_workflowRef	Workflow Reference	Link to workflow (e.g. GitLab).		text	3		FALSE	FALSE	TRUE	TRUE	TRUE	FALSE		crc1218_analysis_method_v1	
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	crc1218_analysis_method_v1_software	R	ANALYSISTOOL_0001	0												
+	crc1218_analysis_method_v1_software	Python	ANALYSISTOOL_0002	1												
+	crc1218_analysis_method_v1_software	GraphPad Prism	ANALYSISTOOL_0003	2												
+	crc1218_analysis_method_v1_software	OriginPro	ANALYSISTOOL_0004	3												
+	crc1218_analysis_method_v1_software	MATLAB	ANALYSISTOOL_0005	4												
+	crc1218_analysis_method_v1_software	MaxQuant	ANALYSISTOOL_0006	5												
+	crc1218_analysis_method_v1_software	Perseus	ANALYSISTOOL_0007	6												
+	crc1218_analysis_method_v1_software	DIA-NN	ANALYSISTOOL_0008	7												
+	crc1218_analysis_method_v1_software	FragPipe	ANALYSISTOOL_0009	8												
+	crc1218_analysis_method_v1_software	Spectronaut	ANALYSISTOOL_0010	9												
+	crc1218_analysis_method_v1_software	Skyline	ANALYSISTOOL_0011	10												
+	crc1218_analysis_method_v1_software	XCMS	ANALYSISTOOL_0012	11												
+	crc1218_analysis_method_v1_software	MetaboAnalyst	ANALYSISTOOL_0013	12												
+	crc1218_analysis_method_v1_software	MS-DIAL	ANALYSISTOOL_0014	13												
+	crc1218_analysis_method_v1_software	Compound Discoverer	ANALYSISTOOL_0015	14												
+	crc1218_analysis_method_v1_software	STAR	ANALYSISTOOL_0016	15												
+	crc1218_analysis_method_v1_software	HISAT2	ANALYSISTOOL_0017	16												
+	crc1218_analysis_method_v1_software	Salmon	ANALYSISTOOL_0018	17												
+	crc1218_analysis_method_v1_software	Kallisto	ANALYSISTOOL_0019	18												
+	crc1218_analysis_method_v1_software	DESeq2	ANALYSISTOOL_0020	19												
+	crc1218_analysis_method_v1_software	edgeR	ANALYSISTOOL_0021	20												
+	crc1218_analysis_method_v1_software	MACS2	ANALYSISTOOL_0022	21												
+	crc1218_analysis_method_v1_software	GATK	ANALYSISTOOL_0023	22												
+	crc1218_analysis_method_v1_software	bcftools	ANALYSISTOOL_0024	23												
+	crc1218_analysis_method_v1_software	MultiQC	ANALYSISTOOL_0025	24												
+	crc1218_analysis_method_v1_software	mixOmics	ANALYSISTOOL_0026	25												
+	crc1218_analysis_method_v1_software	MOFA+	ANALYSISTOOL_0027	26												
+	crc1218_analysis_method_v1_software	Cytoscape	ANALYSISTOOL_0028	27												
+	crc1218_analysis_method_v1_software	ImageJ/FIJI	ANALYSISTOOL_0029	28												
+	crc1218_analysis_method_v1_software	OMERO	ANALYSISTOOL_0030	29												
+	crc1218_analysis_method_v1_software	CellProfiler	ANALYSISTOOL_0031	30												
+	crc1218_analysis_method_v1_software	Imaris	ANALYSISTOOL_0032	31												
+	crc1218_analysis_method_v1_software	Napari	ANALYSISTOOL_0033	32												
+	crc1218_analysis_method_v1_software	Seahorse Wave	ANALYSISTOOL_0034	33												
+	crc1218_analysis_method_v1_software	Oroboros DatLab	ANALYSISTOOL_0035	34												
+	crc1218_analysis_method_v1_software	PyOxyPlot	ANALYSISTOOL_0036	35												
+	crc1218_analysis_method_v1_software	Galaxy	ANALYSISTOOL_0037	36												
+	crc1218_analysis_method_v1_software	Nextflow	ANALYSISTOOL_0038	37												
+	crc1218_analysis_method_v1_software	Snakemake	ANALYSISTOOL_0039	38												
+	crc1218_analysis_method_v1_software	Docker	ANALYSISTOOL_0040	39												
+	crc1218_analysis_method_v1_software	Conda	ANALYSISTOOL_0041	40												
+	crc1218_analysis_method_v1_software	Mamba	ANALYSISTOOL_0042	41												
