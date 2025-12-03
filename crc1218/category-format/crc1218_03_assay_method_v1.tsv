@@ -19,29 +19,32 @@
 	crc1218_assay_method_v1_type	Mass Spectrometry assay	OBI_0000470	7												
 	crc1218_assay_method_v1_type	LC/MS (Liquid Chromatography Mass Spectrometry) assay	CHMO_0000524	8												
 	crc1218_assay_method_v1_type	GS/MS (Gas Chromatography Mass Spectrometry) assay	CHMO_0000497	9												
-	crc1218_assay_method_v1_type	Protein array	EFO_0002702	10												
-	crc1218_assay_method_v1_type	Protein-protein interaction detection assay	OBI_0000288	11												
-	crc1218_assay_method_v1_type	Co-immunoprecipitation	NCIT_C19830	12												
-	crc1218_assay_method_v1_type	Flow Cytometry assay	OBI_0000916	13												
-	crc1218_assay_method_v1_type	RNA-seq assay	OBI_0001271	14												
-	crc1218_assay_method_v1_type	ChIP-seq assay	OBI_0000716	15												
-	crc1218_assay_method_v1_type	ChIP-qPCR assay	OBI_0002169	16												
-	crc1218_assay_method_v1_type	ATAC-seq (assay for transposase-accessible chromatin using sequencing) assay	OBI_0002039	17												
-	crc1218_assay_method_v1_type	DNase-hypersensitivity seq assay	EFO_0003752	18												
-	crc1218_assay_method_v1_type	Bisulfite Sequencing assay	OBI_0000748	19												
-	crc1218_assay_method_v1_type	DNA Methylation Profiling by Array assay	OBI_0001332	20												
-	crc1218_assay_method_v1_type	Luciferase Reporter Gene assay	BAO_0002661	21												
-	crc1218_assay_method_v1_type	β-galactosidase Reporter Gene assay	BAO_0003013	22												
-	crc1218_assay_method_v1_type	Immunofluorescence assay	EFO_0022944	23												
-	crc1218_assay_method_v1_type	Immunohistochemistry Staining Method	NCIT_C23020	24												
-	crc1218_assay_method_v1_type	Confocal microscopy	CHMO_0000103	25												
-	crc1218_assay_method_v1_type	Electron microscopy	CHMO_0000068	26												
-	crc1218_assay_method_v1_type	Single-cell RNA sequencing	EFO_0008913	27												
-	crc1218_assay_method_v1_type	Single-cell ATAC-sequencing	EFO_0010891	28												
-	crc1218_assay_method_v1_type	Isothermal titration calorimetry	CHMO_0000683	29												
-	crc1218_assay_method_v1_type	Cell viability assay	OBI_0003583	30												
-	crc1218_assay_method_v1_type	Cell proliferation assay	OBI_0000891	31												
-	crc1218_assay_method_v1_type	Other	OTHER_ASSAYTYPE	32												
+	crc1218_assay_method_v1_type	CXMS (Chemical Cross-Linking Coupled with Mass Spectrometry)	PRIDE_0000430	10												
+	crc1218_assay_method_v1_type	AP-MS (Affinity Purification Coupled with Mass Spectrometry)	PRIDE_0000431	11												
+	crc1218_assay_method_v1_type	Protein array	EFO_0002702	12												
+	crc1218_assay_method_v1_type	Protein-protein interaction detection assay	OBI_0000288	13												
+	crc1218_assay_method_v1_type	Proteome Integral Solubility Alteration (PISA) assay	PISA_ASSAY	14												
+	crc1218_assay_method_v1_type	Co-immunoprecipitation	NCIT_C19830	15												
+	crc1218_assay_method_v1_type	Flow Cytometry assay	OBI_0000916	16												
+	crc1218_assay_method_v1_type	RNA-seq assay	OBI_0001271	17												
+	crc1218_assay_method_v1_type	ChIP-seq assay	OBI_0000716	18												
+	crc1218_assay_method_v1_type	ChIP-qPCR assay	OBI_0002169	19												
+	crc1218_assay_method_v1_type	ATAC-seq (assay for transposase-accessible chromatin using sequencing) assay	OBI_0002039	20												
+	crc1218_assay_method_v1_type	DNase-hypersensitivity seq assay	EFO_0003752	21												
+	crc1218_assay_method_v1_type	Bisulfite Sequencing assay	OBI_0000748	22												
+	crc1218_assay_method_v1_type	DNA Methylation Profiling by Array assay	OBI_0001332	23												
+	crc1218_assay_method_v1_type	Luciferase Reporter Gene assay	BAO_0002661	24												
+	crc1218_assay_method_v1_type	β-galactosidase Reporter Gene assay	BAO_0003013	25												
+	crc1218_assay_method_v1_type	Immunofluorescence assay	EFO_0022944	26												
+	crc1218_assay_method_v1_type	Immunohistochemistry Staining Method	NCIT_C23020	27												
+	crc1218_assay_method_v1_type	Confocal microscopy	CHMO_0000103	28												
+	crc1218_assay_method_v1_type	Electron microscopy	CHMO_0000068	29												
+	crc1218_assay_method_v1_type	Single-cell RNA sequencing	EFO_0008913	30												
+	crc1218_assay_method_v1_type	Single-cell ATAC-sequencing	EFO_0010891	31												
+	crc1218_assay_method_v1_type	Isothermal titration calorimetry	CHMO_0000683	32												
+	crc1218_assay_method_v1_type	Cell viability assay	OBI_0003583	33												
+	crc1218_assay_method_v1_type	Cell proliferation assay	OBI_0000891	34												
+	crc1218_assay_method_v1_type	Other	OTHER_ASSAYTYPE	35												
 	crc1218_assay_method_v1_instrument	BD FACS Canto II	BD_CANTOII	0												
 	crc1218_assay_method_v1_instrument	BD INFLUX Cell Sorter	BD_INFLUX	1												
 	crc1218_assay_method_v1_instrument	BD LSRFortessa Cell Analyzer	BD_LSR	2												
