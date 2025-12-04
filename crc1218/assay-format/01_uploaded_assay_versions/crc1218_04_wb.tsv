@@ -1,17 +1,11 @@
 #metadataBlock	name	dataverseAlias	displayName												
 	crc1218_wb_v1	crc1218_wb_v1	CRC1218 Western blotting v1												
 #datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
-	crc1218_wb_v1_assayapp	Assay application	The specific purpose of performing western blotting. If not in the list, select Other and fill it in the next field.	Verification of Knockdown/Knockout	text	0		TRUE	TRUE	TRUE	TRUE	TRUE	TRUE		crc1218_wb_v1
-	crc1218_wb_v1_otcassayapp	Other assay application			text	1		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_wb_v1
-	crc1218_wb_v1_assaykit	Assay kit	The title of the kit/biologicals used.	BIO-RAD TeSeE WESTERN BLOT	text	2		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_wb_v1
-	crc1218_wb_v1_doe	Date of experiment	date or a rough date when the assay was performed		text	3		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_wb_v1
-	crc1218_wb_v1_performedin	Performed in	The biological context of the sample.	in vivo	text	4		FALSE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_wb_v1
-	crc1218_wb_v1_sampleinfo	Sample group	A category header for the sample information.		none	10	;	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_wb_v1
-	crc1218_wb_v1_samplegrp	Group	"A label to categorize the samples, such as ""Control"", ""Treatment"", ""Disease"", or ""Healthy"". or collection time points, etc."	Control	text	0	#VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_wb_v1_sampleinfo	crc1218_wb_v1
-	crc1218_wb_v1_sampleid	Sample ID(s)	Self-defined sample ID(s). Make sure it is the same when entering the sample metadata.	WT_001	text	1	#VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_wb_v1_sampleinfo	crc1218_wb_v1
-	crc1218_wb_v1_organism	Organism	The species from which samples were derived.	Mus musculus	text	2	#VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE	crc1218_wb_v1_sampleinfo	crc1218_wb_v1
-	crc1218_wb_v1_sampletyp	Sample type	A description of the physical nature of the sample.	Drain lymph nodes	text	3	#VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1218_wb_v1_sampleinfo	crc1218_wb_v1
-	crc1218_wb_v1_model	Biological condtion	Biological condition of the sample source.	Knockout	text	4	#VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_sample_v1
+	crc1218_wb_v1_uniqueIdentifierWB	Unique Identifier for Western Blot	Unique ID for Western Blot associated to this dataset.	E.g. UzK-SAC-E250731-WB01	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		crc1218_wb_v1
+	crc1218_wb_v1_doe	Date of experiment	Date or timeframe when the assay was performed		text	1		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_wb_v1
+	crc1218_wb_v1_assayapp	Assay application	The specific purpose of performing western blotting. If not in the list, select Other and fill it in the next field.	Verification of Knockdown/Knockout	text	2		TRUE	TRUE	TRUE	TRUE	TRUE	TRUE		crc1218_wb_v1
+	crc1218_wb_v1_otcassayapp	Other assay application			text	3		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_wb_v1
+	crc1218_wb_v1_assaykit	Assay kit	The title of the kit/biologicals used.	BIO-RAD TeSeE WESTERN BLOT	text	4		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_wb_v1
 	crc1218_wb_v1_targetprot	Target protein	A category header for the detailed target protein information.		none	11	;	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_wb_v1
 	crc1218_wb_v1_protname	Protein name	Name of studied protein.	BRCA1	text	0	#VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1218_wb_v1_targetprot	crc1218_wb_v1
 	crc1218_wb_v1_uniprotid	Uniprot ID	Uniprot ID of studied protein.	P38398	text	1	#VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1218_wb_v1_targetprot	crc1218_wb_v1
@@ -33,11 +27,6 @@
 	crc1218_wb_v1_finddata	How to find relevant data	(For metadata provider) Local path, folder name where data are store, private repository, etc. (For sharing) path in shared folder, link to public repository, etc.	M:\phd_project\2025-02_protein_validation_KO_012	text	27	"<a href=""#VALUE"">#VALUE</a>"	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_wb_v1
 	crc1218_wb_v1_notes	Notes	Notes about this experiment. Either for fellow researchers or to the metadata provider in the future.		textbox	28		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_wb_v1
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder											
-	crc1218_wb_v1_performedin	ex vivo	NCIT_C70676	0											
-	crc1218_wb_v1_performedin	in vitro	NCIT_C15263	1											
-	crc1218_wb_v1_performedin	in vivo	NCIT_C15744	2											
-	crc1218_wb_v1_organism	Homo sapiens	NCBITaxon_9606	0											
-	crc1218_wb_v1_organism	Mus musculus	NCBITaxon_10090	1											
 	crc1218_wb_v1_assayapp	Antibody Validation/Specificity Check	APP_VALIDAT_CHECK	0											
 	crc1218_wb_v1_assayapp	Detection of Post-Translational Modification (PTM)	APP_DET_PTM	1											
 	crc1218_wb_v1_assayapp	Diagnostic Confirmation	APP_DIAG_CHECK	2											
@@ -47,12 +36,6 @@
 	crc1218_wb_v1_assayapp	Subcellular Fractionation / Localization	APP_SUBCELL_LOC	6											
 	crc1218_wb_v1_assayapp	Verification of Knockdown/Knockout	APP_VALIDAT_KO	7											
 	crc1218_wb_v1_assayapp	Other	APP_OTHER	15											
-	crc1218_wb_v1_model	double knockout (DKO)	MODEL_DKO	0											
-	crc1218_wb_v1_model	knockin	MCO_0000046	1											
-	crc1218_wb_v1_model	knockout	MCO_0000042	2											
-	crc1218_wb_v1_model	knowdown	MCO_0000050	3											
-	crc1218_wb_v1_model	overexpression	MCO_0000041	4											
-	crc1218_wb_v1_model	wild type	MODEL_WT	5											
 	crc1218_wb_v1_gelelectro	SDS-PAGE	NCIT_C18150	0											
 	crc1218_wb_v1_gelelectro	Native PAGE	OMIT_0028250	1											
 	crc1218_wb_v1_gelelectro	Isoelectric focusing	NCIT_C16758	2											

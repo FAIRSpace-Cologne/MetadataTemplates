@@ -1,17 +1,13 @@
 #metadataBlock	name	dataverseAlias	displayName												
 	crc1218_flocyto_v1	crc1218_flocyto_v1	CRC1218 Flow Cytometry v1												
 #datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
-	crc1218_flocyto_v1_assayapp	Assay application	The specific purpose of performing flow cytometry assay. If not in the list, select Other and fill it in the next field.	Immunophenotyping	text	0		TRUE	TRUE	TRUE	TRUE	TRUE	TRUE		crc1218_flocyto_v1
-	crc1218_flocyto_v1_otcassayapp	Other assay application			text	1		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
-	crc1218_flocyto_v1_assaykit	Assay kit	The title of the kit/biologicals used.	BD Multitest 6-Color TBNK Kit	text	2		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
-	crc1218_flocyto_v1_doe	Date of experiment	date or a rough date when the assay was performed.	2025-03 - 2025-08	text	3		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
-	crc1218_flocyto_v1_performedin	Performed in	The biological context of the sample.		text	4		FALSE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_flocyto_v1
+	crc1218_flocyto_v1_uniqueIdentifierFloCyto	Unique Identifier for Flow Cytometry	Unique ID for Flow Cytometry associated to this dataset.	E.g. UzK-SAC-E250731-FC01	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		crc1218_flocyto_v1
+	crc1218_flocyto_v1_doe	Date of experiment	Date or timeframe when the assay was performed.	2025-03 - 2025-08	text	1		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
+	crc1218_flocyto_v1_assayapp	Assay application	The specific purpose of performing flow cytometry assay. If not in the list, select Other and fill it in the next field.	Immunophenotyping	text	2		TRUE	TRUE	TRUE	TRUE	TRUE	TRUE		crc1218_flocyto_v1
+	crc1218_flocyto_v1_otcassayapp	Other assay application			text	3		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
+	crc1218_flocyto_v1_assaykit	Assay kit	The title of the kit/biologicals used.	BD Multitest 6-Color TBNK Kit	text	4		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
 	crc1218_flocyto_v1_instru	Instrument	Device applied for the assay. If it is not in the list, select Other and fill it in the next field.	Bio-Rad CFX Opus 96	text	7		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_flocyto_v1
 	crc1218_flocyto_v1_otcinstru	Other instrument			text	8		FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_flocyto_v1
-	crc1218_flocyto_v1_instruqc	Instrument QC	A list of performed method to ensure the health of the instrument .	Optimization beads, Signal Stability Check	text	9		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
-	crc1218_flocyto_v1_sampleid	Sample ID	Self-defined sample ID(s). Make sure it is the same when entering the sample metadata.	WT011	text	15		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
-	crc1218_flocyto_v1_organism	Organism	The species from which samples were derived.	Mus musculus	text	16		FALSE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_flocyto_v1
-	crc1218_flocyto_v1_staininginfo	Link to staining information	When the list of staining information is stored in a file and uploaded in a shared folder or repository (e.g., ZENODO), please enter the path or the link.	P:\shared_folder\John_Doe\2025-03_CellAnalysis_WT011\staining_list.pdf	text	17	"<a href=""#VALUE"">#VALUE</a>"	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
 	crc1218_flocyto_v1_staining	Staining	A category header for the staining information if not stored as a file.		none	20	,	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
 	crc1218_flocyto_v1_antigen	Antigen		CD45	text	1	#NAME: #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1218_flocyto_v1_staining	crc1218_flocyto_v1
 	crc1218_flocyto_v1_fluoro	Fluorophore		APC	text	2	#NAME: #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1218_flocyto_v1_staining	crc1218_flocyto_v1
@@ -22,13 +18,8 @@
 	crc1218_flocyto_v1_qc	Quality control	A list of the checks performed to ensure the data is reliable.	Viability QC, Spillover Check.	text	30		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
 	crc1218_flocyto_v1_relvpaper	Associated literature (link)	Link or DOI of the literature that is relevant to this experiment.	doi.org/10.3109/07388551.2015.1128876	text	31	"<a href=""#VALUE"">#VALUE</a>"	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
 	crc1218_flocyto_v1_finddata	How to find relevant data	(For metadata provider) Local path, folder name where data are store, private repository, etc. (For sharing) path in shared folder, link to public repository, etc.	M:\phd_project\2025-03_CellAnalysis_WT011	text	32	"<a href=""#VALUE"">#VALUE</a>"	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
-	crc1218_flocyto_v1_notes	Notes	Notes about this experiment. Either for fellow researchers or to the metadata provider in the future.		textbox	33		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
+	crc1218_flocyto_v1_notes	Notes	Notes about this experiment. Either for fellow researchers or to the metadata provider in the future.	E.g. Relevant details about the protocol	textbox	33		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_flocyto_v1
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder											
-	crc1218_flocyto_v1_performedin	ex vivo	NCIT_C70676	0											
-	crc1218_flocyto_v1_performedin	in vitro	NCIT_C15263	1											
-	crc1218_flocyto_v1_performedin	in vivo	NCIT_C15744	2											
-	crc1218_flocyto_v1_organism	Homo sapiens	NCBITaxon_9606	0											
-	crc1218_flocyto_v1_organism	Mus musculus	NCBITaxon_10090	1											
 	crc1218_flocyto_v1_assayapp	Cell Cycle Analysis	CELLCYCLE	0											
 	crc1218_flocyto_v1_assayapp	Cell Death Pathway Quantification	CELLDEATH	1											
 	crc1218_flocyto_v1_assayapp	Cell Proliferation	OBI_0000891	2											

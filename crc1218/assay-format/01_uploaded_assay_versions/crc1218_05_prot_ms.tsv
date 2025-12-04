@@ -1,24 +1,16 @@
 #metadataBlock	name	dataverseAlias	displayName												
 	crc1218_ms_v1	crc1218_ms_v1	CRC1218 Proteomics(MS) v1												
 #datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
-	crc1218_ms_v1_protappro	Proteomics approach	The specific method used to analyze the proteome. If not in the list, select Other and fill it in the next field.	Quantitative proteomics	text	0		TRUE	TRUE	TRUE	TRUE	TRUE	TRUE		crc1218_ms_v1
-	crc1218_ms_v1_otcprotappro	Other proteomics approach			text	1		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_ms_v1
-	crc1218_ms_v1_assaykit	Assay kit	The title of the kit/biologicals used.	SILAC Protein Quantitation Kit	text	2		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_ms_v1
-	crc1218_ms_v1_doe	Date of experiment	date or a rough date when the assay was performed	2025-08	text	3		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_ms_v1
-	crc1218_ms_v1_performedin	Performed in		in vivo	text	4		FALSE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_ms_v1
-	crc1218_ms_v1_sampleinfo	Sample group	A category header for the sample information.		none	10	;	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_ms_v1
-	crc1218_ms_v1_samplegrp	Group	"A label to categorize the samples, such as ""Control"", ""Treatment"", ""Disease"", or ""Healthy"". or collection time points, etc."	Control	text	0	#VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_ms_v1_sampleinfo	crc1218_ms_v1
-	crc1218_ms_v1_sampleid	Sample ID(s)	Self-defined sample ID(s). Make sure it is the same when entering the sample metadata.	WT_001	text	1	#VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_ms_v1_sampleinfo	crc1218_ms_v1
-	crc1218_ms_v1_organism	Organism	The species from which samples were derived.	Mus musculus	text	2	#VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE	crc1218_ms_v1_sampleinfo	crc1218_ms_v1
-	crc1218_ms_v1_sampletyp	Sample type	A description of the physical nature of the sample.	Cell culture lysate	text	3	#VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1218_ms_v1_sampleinfo	crc1218_ms_v1
-	crc1218_ms_v1_samplerepl	Biological replicates	The number of independent samples for each group.	N=3	text	4	#NAME: #VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_ms_v1_sampleinfo	crc1218_ms_v1
+	crc1218_ms_v1_uniqueIdentifierProt	Unique Identifier for Proteomics	Unique ID for Proteomics associated to this dataset.	E.g. UzK-SAC-E250731-PROT01	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		crc1218_ms_v1
+	crc1218_ms_v1_doe	Date of experiment	Date or timeframe when the assay was performed	2025-08	text	1		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_ms_v1
+	crc1218_ms_v1_protappro	Proteomics approach	The specific method used to analyze the proteome. If not in the list, select Other and fill it in the next field.	Quantitative proteomics	text	2		TRUE	TRUE	TRUE	TRUE	TRUE	TRUE		crc1218_ms_v1
+	crc1218_ms_v1_otcprotappro	Other proteomics approach			text	3		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_ms_v1
+	crc1218_ms_v1_assaykit	Assay kit	The title of the kit/biologicals used.	SILAC Protein Quantitation Kit	text	4		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_ms_v1
 	crc1218_ms_v1_targetprot	Target protein	A category header for the detailed target protein information.		none	10	;	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_ms_v1
 	crc1218_ms_v1_protname	Protein name	Name of studied protein.	BRCA1	text	0	#VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1218_ms_v1_targetprot	crc1218_ms_v1
 	crc1218_ms_v1_uniprotid	Uniprot ID	Uniprot ID of studied protein.	P38398	text	1	#VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1218_ms_v1_targetprot	crc1218_ms_v1
 	crc1218_ms_v1_otcprotinfo	Other protein identifier	If not using Uniprot as protein ontology, please add the name of database and protein identifier.	HGNC:1100	text	2	#VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_ms_v1_targetprot	crc1218_ms_v1
 	crc1218_ms_v1_protstatus	Protein status	The status of the protein being studied.	Overexpressed	text	3	#VALUE	FALSE	TRUE	TRUE	TRUE	TRUE	FALSE	crc1218_ms_v1_targetprot	crc1218_ms_v1
-	crc1218_ms_v1_prothostspec	Host species of protein	The organism from which the protein was produced. If not in the list, select Other and fill it in the next field.	Escherichia coli (E. coli)	text	4	#VALUE	FALSE	TRUE	TRUE	TRUE	TRUE	FALSE	crc1218_ms_v1_targetprot	crc1218_ms_v1
-	crc1218_ms_v1_otcprothost	Other host species of protein			text	5	#VALUE	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE	crc1218_ms_v1_targetprot	crc1218_ms_v1
 	crc1218_ms_v1_fractionation	Fractionation	A Yes/No field indicating if the sample was separated into different fractions before MS analysis to reduce its complexity.	Yes	text	20		FALSE	TRUE	FALSE	FALSE	TRUE	FALSE		crc1218_ms_v1
 	crc1218_ms_v1_digestion	Digestion method	The method used to break down the proteins into peptides.	In-solution digestion	text	21		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_ms_v1
 	crc1218_ms_v1_ptmgroup	PTM group of interest	The specific post-translational modifications being studied. If not in the list, select Other and fill it in the next field.	Phosphorylation	text	22		FALSE	TRUE	TRUE	TRUE	TRUE	FALSE		crc1218_ms_v1
@@ -28,11 +20,6 @@
 	crc1218_ms_v1_finddata	How to find relevant data	(For metadata provider) Local path, folder name where data are store, private repository, etc. (For sharing) path in shared folder, link to public repository, etc.	J:\phd_project\proteomics\2025-08_MS	text	32	"<a href=""#VALUE"">#VALUE</a>"	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_ms_v1
 	crc1218_ms_v1_notes	Notes	Notes about this experiment. Either for fellow researchers or to the metadata provider in the future.		textbox	33		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_ms_v1
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder											
-	crc1218_ms_v1_performedin	ex vivo	NCIT_C70676	0											
-	crc1218_ms_v1_performedin	in vitro	NCIT_C15263	1											
-	crc1218_ms_v1_performedin	in vivo	NCIT_C15744	2											
-	crc1218_ms_v1_organism	Homo sapiens	NCBITaxon_9606	0											
-	crc1218_ms_v1_organism	Mus musculus	NCBITaxon_10090	1											
 	crc1218_ms_v1_protappro	Bottom-up proteomics	PRIDE_0000428	0											
 	crc1218_ms_v1_protappro	Quantitative proteomics	PRIDE_QUANTPROT	1											
 	crc1218_ms_v1_protappro	Targeted proteomics	PRIDE_TARGETPROT	2											
@@ -40,11 +27,6 @@
 	crc1218_ms_v1_protappro	Other	PRIDE_OTHER	4											
 	crc1218_ms_v1_protstatus	Endogenous	PROT_STATUS_ENDO	1											
 	crc1218_ms_v1_protstatus	Overexpressed/Recominant	PROT_STATUS_OE_REC	2											
-	crc1218_ms_v1_prothostspec	Escherichia coli (E. coli)	NCIT_C14206	0											
-	crc1218_ms_v1_prothostspec	Saccharomyces cerevisiae (yeast)	NCIT_C14271	1											
-	crc1218_ms_v1_prothostspec	Homo sapiens (human cells)	NCIT_C14225	2											
-	crc1218_ms_v1_prothostspec	Cricetulus griseus (CHO cells)	NCIT_C77091	3											
-	crc1218_ms_v1_prothostspec	Other	PROT_HOST_OTHER	4											
 	crc1218_ms_v1_fractionation	Yes	FRACT_YES	1											
 	crc1218_ms_v1_fractionation	No	FRACT_NO	2											
 	crc1218_ms_v1_ptmgroup	Acetylation	NCIT_C16255	1											

@@ -1,15 +1,13 @@
 #metadataBlock	name	dataverseAlias	displayName												
 	crc1218_pcr_v1	crc1218_pcr_v1	CRC1218 PCR v1												
 #datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
-	crc1218_pcr_v1_assay	Assay	If performed assay is not in the list, select Other and fill it in the next field.	qRT-PCR	text	0		TRUE	TRUE	FALSE	TRUE	TRUE	TRUE		crc1218_pcr_v1
-	crc1218_pcr_v1_otcassay	Other assay			text	1		FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_pcr_v1
-	crc1218_pcr_v1_assaykit	Assay kit	The title of the kit/biologicals used.	TaqMan QSY probes	text	2		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_pcr_v1
-	crc1218_pcr_v1_performedin	Performed in			text	3		FALSE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_pcr_v1
-	crc1218_pcr_v1_doe	Date of experiment	date or a rough date when the assay was performed.	2025-03-01 - 2025-03-15	text	4		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_uniqueIdentifierPCR	Unique Identifier for PCR	Unique ID for PCR associated to this dataset.	E.g. UzK-SAC-E250731-PCR01	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		crc1218_pcr_v1
+	crc1218_pcr_v1_doe	Date of experiment	Date or timeframe when the assay was performed.	2025-03-01 – 2025-03-15	text	1		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_assay	Assay	If performed assay is not in the list, select Other and fill it in the next field.	qRT-PCR	text	2		TRUE	TRUE	FALSE	TRUE	TRUE	TRUE		crc1218_pcr_v1
+	crc1218_pcr_v1_otcassay	Other assay			text	3		FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_assaykit	Assay kit	The title of the kit/biologicals used.	TaqMan QSY probes	text	4		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_pcr_v1
 	crc1218_pcr_v1_instru	Instrument	Device applied for the assay. If it is not in the list, select Other and fill it in the next field.	Bio-Rad CFX Opus 96	text	5		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_pcr_v1
 	crc1218_pcr_v1_otcinstru	Other instrument			text	6		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
-	crc1218_pcr_v1_sampleid	Sample ID	Self-defined sample ID(s). Make sure it is the same when entering the sample metadata.	KO_Treated_001	text	7		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
-	crc1218_pcr_v1_organism	Organism		Mus musculus	text	8		FALSE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_pcr_v1
 	crc1218_pcr_v1_targetgene	Target	The name of the gene or DNA sequence being studied	VEGFA	text	10		FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_pcr_v1
 	crc1218_pcr_v1_ncbiid	Target accession ID	A database identifier for the target gene or sequence.	NM_001025287.2	text	11		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_pcr_v1
 	crc1218_pcr_v1_startmaterial	Starting material	Specify the type of nucleic acid used as the starting material.	DNA	text	12		FALSE	TRUE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
@@ -17,8 +15,8 @@
 	crc1218_pcr_v1_rtprimerconcen	RT primer concentration	The concentration of the reverse transcription primer.	50 µM	text	14		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
 	crc1218_pcr_v1_codingdnalen	Coding DNA length	The full length of the target gene's coding DNA sequence.	641 bp	text	15		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
 	crc1218_pcr_v1_pcrprimerid	PCR Primer ID	Self-defined ID for the primer pair	Vegfa_F_1, Vegfa_R_1	text	16		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
-	crc1218_pcr_v1_amplicion	Amplicon size	The length of the DNA fragment that primers are designed to amplify.	105 bp	text	17		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
-	crc1218_pcr_v1_forpri	Forward primer	A category header for the forward primer detatils. 		none	18	;	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_amplicon	Amplicon size	The length of the DNA fragment that primers are designed to amplify.	105 bp	text	17		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_forpri	Forward primer	A category header for the forward primer details. 		none	18	;	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
 	crc1218_pcr_v1_fpri_seq	Sequence (5' -> 3')	The sequence of the forward primer.	ATCTGCATTGCTGTCCAGCA	text	0	Sequence: #VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_pcr_v1_forpri	crc1218_pcr_v1
 	crc1218_pcr_v1_fpri_len	Length	The number of nucleotides.	20	text	1	Len: #VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_pcr_v1_forpri	crc1218_pcr_v1
 	crc1218_pcr_v1_fpri_tm	TM	Melting temperature in celsius.	61.1	text	2	TM: #VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_pcr_v1_forpri	crc1218_pcr_v1
@@ -39,11 +37,6 @@
 	crc1218_pcr_v1_assay	Real Time PCR (qPCR)	NCIT_C51962	1											
 	crc1218_pcr_v1_assay	Reverse Transcription PCR (RT-PCR)	NCIT_C18136	2											
 	crc1218_pcr_v1_assay	Other	ASSAY_OTHER	10											
-	crc1218_pcr_v1_performedin	ex vivo	NCIT_C70676	0											
-	crc1218_pcr_v1_performedin	in vitro	NCIT_C15263	1											
-	crc1218_pcr_v1_performedin	in vivo	NCIT_C15744	2											
-	crc1218_pcr_v1_organism	Homo sapiens	NCBITaxon_9606	0											
-	crc1218_pcr_v1_organism	Mus musculus	NCBITaxon_10090	1											
 	crc1218_pcr_v1_rtprimertyp	Oligo(dT) primer	RT_PRIMER_OLIGO	0											
 	crc1218_pcr_v1_rtprimertyp	Random primer	RT_PRIMER_RANDOM	1											
 	crc1218_pcr_v1_rtprimertyp	Gene-Specific primer	RT_PRIMER_GENSPEC	2											

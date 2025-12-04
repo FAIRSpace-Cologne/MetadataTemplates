@@ -1,31 +1,31 @@
 #metadataBlock	name	dataverseAlias	displayName												
 	crc1218_sample_v1	crc1218_sample_v1	CRC1218 Sample Information v1												
 #datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
-	crc1218_sample_v1_id	Sample ID	Self-defined sample ID(s). Make sure enter the same ID when entering the assay metadata.	WT-001	text	0		FALSE	FALSE	TRUE	FALSE	TRUE	TRUE		crc1218_sample_v1
+	crc1218_sample_v1_studyId	Unique Identifier	Study or Experiment Unique ID.	E.g. UzK-SAC-E250731	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		crc1218_sample_v1
 	crc1218_sample_v1_organism	Organism	The species from which the sample was obtained.	Mus musculus	text	1		FALSE	TRUE	FALSE	TRUE	TRUE	TRUE		crc1218_sample_v1
-	crc1218_sample_v1_type	Sample type	A description of the physical nature of the sample.	Descemet membrane	text	2		FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_sample_v1
-	crc1218_sample_v1_cellline	Cell line	The name or identifier of the cell line used, if applicable.	CRMM1	text	3		FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_sample_v1
-	crc1218_sample_v1_animalinfo	Animal model	Biological condition of animal sample source.		none	4	;	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sample_v1
-	crc1218_sample_v1_model	Biological condtion	The specific model of animal, if applicable.	Wild Type	text	0	#VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE	crc1218_sample_v1_animalinfo	crc1218_sample_v1
+	crc1218_sample_v1_animalinfo	Animal model	Biological condition of animal sample source.		none	5	;	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sample_v1
+	crc1218_sample_v1_model	Biological condition	The specific model of animal, if applicable.	Wild Type	text	0	#VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE	crc1218_sample_v1_animalinfo	crc1218_sample_v1
 	crc1218_sample_v1_gene	Target gene	The name of the gene being studied.	ABCB5	text	1	#VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1218_sample_v1_animalinfo	crc1218_sample_v1
-	crc1218_sample_v1_age	Age	Age of the animal model or the human subject at the time of sample collection.	8 weeks	text	5		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sample_v1
-	crc1218_sample_v1_disease	Disease	Studied disease or condition. If not in the list, select Other and fill it in the next field.	Corneal infection	text	6		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_sample_v1
-	crc1218_sample_v1_otcdisease	Other disease			text	7		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sample_v1
-	crc1218_sample_v1_stage	Stage	The developmental or disease stage of the sample source.		text	8		TRUE	TRUE	TRUE	FALSE	TRUE	FALSE		crc1218_sample_v1
-	crc1218_sample_v1_relateid	Related sample ID	Other samples as control, treatment group or from the same animal model.	WT-002, KO-001	text	9		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_sample_v1
-	crc1218_sample_v1_protocol	Protocol	If you would like to share the sample preparation protocol, please enter the link here. This can be an external repository or an internal path to a shared folder.	M:\UNIKLINK\Klinik\Shared_folder\2025-01-01_sample_preparation_protocol_5	text	11	"<a href=""#VALUE"">#VALUE</a>"	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_sample_v1
+	crc1218_sample_v1_type	Sample type	A description of the physical nature of the sample.	Descemet membrane	text	6		FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_sample_v1
+	crc1218_sample_v1_age	Age	Age of the animal model or the human subject at the time of sample collection.	8 weeks	text	7		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sample_v1
+	crc1218_sample_v1_disease	Disease	Studied disease or condition. If not in the list, select Other and fill it in the next field.	Corneal infection	text	8		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_sample_v1
+	crc1218_sample_v1_otcdisease	Other disease			text	9		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sample_v1
+	crc1218_sample_v1_stage	Stage	The developmental or disease stage of the sample source.		text	10		TRUE	TRUE	TRUE	FALSE	TRUE	FALSE		crc1218_sample_v1
+	crc1218_sample_v1_cellline	Cell line	The name or identifier of the cell line used, if applicable.	CRMM1	text	11		FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_sample_v1
+	crc1218_sample_v1_protocol	Protocol	If you would like to share the sample preparation protocol, please enter the link here. This can be an external repository or an internal path to a shared folder.	M:\UNIKLINK\Klinik\Shared_folder\2025-01-01_sample_preparation_protocol_5	text	12	"<a href=""#VALUE"">#VALUE</a>"	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_sample_v1
 	crc1218_sample_v1_relvpaper	Associated literature (link)	Link or DOI of the literature that is relevant to the sample preparation method.	doi.org/10.1038/s41467-024-47989-9	text	13		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_sample_v1
-	crc1218_sample_v1_notes	Notes	Notes about sample preparation or modification of protocol. Either for fellow researchers or to metadata provider in the future.	 	textbox	14		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sample_v1
+	crc1218_sample_v1_relatedDataId	Related Dataset PI	If there are any datasets associated to this one (e.g. collaborative work within the CRC), place the Permanent Identifier link here.		text	14		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_sample_v1
+	crc1218_sample_v1_notes	Notes	Notes about sample preparation or modification of protocol. Either for fellow researchers or to metadata provider in the future.	 	textbox	15		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sample_v1
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder											
 	crc1218_sample_v1_organism	Homo sapiens	NCBITaxon_9606	0											
 	crc1218_sample_v1_organism	Mus musculus	NCBITaxon_10090	1											
-	crc1218_sample_v1_model	double knockout (DKO)	MODEL_DKO	0											
-	crc1218_sample_v1_model	knockin	MCO_0000046	1											
-	crc1218_sample_v1_model	knockout	MCO_0000042	2											
-	crc1218_sample_v1_model	knowdown	MCO_0000050	3											
-	crc1218_sample_v1_model	overexpression	MCO_0000041	4											
-	crc1218_sample_v1_model	wild type	MODEL_WT	5											
-	crc1218_sample_v1_disease	Acute keratoconus	MONDO_0000943	0											
+	crc1218_sample_v1_model	Double Knock-out (DKO)	MODEL_DKO	0											
+	crc1218_sample_v1_model	Knockin	MCO_0000046	1											
+	crc1218_sample_v1_model	Knockout	MCO_0000042	2											
+	crc1218_sample_v1_model	Knowdown	MCO_0000050	3											
+	crc1218_sample_v1_model	Overexpression	MCO_0000041	4											
+	crc1218_sample_v1_model	Wild type	MODEL_WT	5											
+	crc1218_sample_v1_disease	Acute Keratoconus	MONDO_0000943	0											
 	crc1218_sample_v1_disease	Age-related macular degeneration (AMD)	MONDO_0005150	1											
 	crc1218_sample_v1_disease	Aniridia	MONDO_0019172	2											
 	crc1218_sample_v1_disease	Conjunctival melanoma	MONDO_0002096	3											

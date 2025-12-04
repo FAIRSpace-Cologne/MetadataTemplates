@@ -1,18 +1,16 @@
 #metadataBlock	name	dataverseAlias	displayName												
 	crc1218_sequencing_v1	crc1218_sequencing_v1	CRC1218 Sequencing v1												
 #datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
-	crc1218_seq_v1_assay	Assay	If the sequencing technique is not in the list, select Other and fill it in the next field.	Bulk RNA-seq	text	0		TRUE	TRUE	FALSE	TRUE	TRUE	TRUE		crc1218_sequencing_v1
-	crc1218_seq_v1_otcassay	Other assay		 	text	1		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
-	crc1218_seq_v1_assaykit	Assay kit	The title of the kit/biologicals used.	TruSeq RNA Library Prep Kit v2	text	2		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
-	crc1218_seq_v1_performedin	Performed in		 	text	3		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
-	crc1218_seq_v1_doe	Date of experiment	Date or a rough date when the assay was performed.	2025-06	text	4		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_uniqueIdentifierRNA	Unique Identifier for RNA sequencing	Unique ID for RNA-seq associated to this dataset.	E.g. UzK-SAC-E250731-RNAs01	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		crc1218_sequencing_v1
+	crc1218_seq_v1_doe	Date of experiment	Date or a rough date when the assay was performed.	2025-06	text	1		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_assay	Assay	If the sequencing technique is not in the list, select Other and fill it in the next field.	Bulk RNA-seq	text	2		TRUE	TRUE	FALSE	TRUE	TRUE	TRUE		crc1218_sequencing_v1
+	crc1218_seq_v1_otcassay	Other assay		 	text	3		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_assaykit	Assay kit	The title of the kit/biologicals used.	TruSeq RNA Library Prep Kit v2	text	4		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
 	crc1218_seq_v1_instru	Instrument	Device used for sequencing. If it is not in the list, select Other and fill it in the next field.	ILLUMINA	text	5		TRUE	TRUE	TRUE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
 	crc1218_seq_v1_otcinstru	Other instrument		 	text	6		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
-	crc1218_seq_v1_sampleid	Sample ID	Self-defined sample ID(s). Make sure using the same ID from the sample metadata.	WT-006	text	7		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
-	crc1218_seq_v1_organism	Organism		 	text	8		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
 	crc1218_seq_v1_runid	Run ID or Folder name	Self-defined ID or Folder name in local path where Run data is stored.		text	9		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
 	crc1218_seq_v1_libid	Library name or ID	Self-defined library name or ID.		text	10		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
-	crc1218_seq_v1_libselect	Library selection	A category header for the library selection detatils. 		none	11	 : 	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_libselect	Library selection	A category header for the library selection details. 		none	11	 : 	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
 	crc1218_seq_v1_selectedby	Selected by	Source material was selected by	PolyA	text	0	#VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE	crc1218_seq_v1_libselect	crc1218_sequencing_v1
 	crc1218_seq_v1_otclibselect	Other			text	1	#VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_seq_v1_libselect	crc1218_sequencing_v1
 	crc1218_seq_v1_liblayout	Library layout	Type of read.	Paired-end	text	21		FALSE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
@@ -37,8 +35,6 @@
 	crc1218_seq_v1_selectedby	Other	LIBSELC_OTHER	5											
 	crc1218_seq_v1_liblayout	Single-end	LIBLAY_SINGLE	0											
 	crc1218_seq_v1_liblayout	Paired-end	LIBLAY_PAIRED	1											
-	crc1218_seq_v1_organism	Homo sapiens	NCBITaxon_9606	0											
-	crc1218_seq_v1_organism	Mus musculus	NCBITaxon_10090	1											
 	crc1218_seq_v1_instru	Illumina NextSeq 1000	ILLUMINA_NEXT1000	0											
 	crc1218_seq_v1_instru	Illumina NextSeq 2000	ILLUMINA_NEXT2000	1											
 	crc1218_seq_v1_instru	Illumina NextSeq 550	ILLUMINA_NEXT550	2											
@@ -52,6 +48,3 @@
 	crc1218_seq_v1_instru	PacBio Revio	PACBIO_REVIO	21											
 	crc1218_seq_v1_instru	PacBio Sequel II	PACBIO_SEQII	22											
 	crc1218_seq_v1_instru	PacBio Sequel IIe	PACBIO_SEQIIE	23											
-	crc1218_seq_v1_performedin	ex vivo	NCIT_C70676	0											
-	crc1218_seq_v1_performedin	in vitro	NCIT_C15263	1											
-	crc1218_seq_v1_performedin	in vivo	NCIT_C15744	2											
