@@ -1,0 +1,48 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	crc1218_pcr_v1	crc1218_pcr_v1	CRC1218 PCR v1												
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	crc1218_pcr_v1_doe	Date of experiment	Date or timeframe when the assay was performed.	2025-03-01 – 2025-03-15	text	1		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_assay	Assay	If performed assay is not in the list, select Other and fill it in the next field.	qRT-PCR	text	2		TRUE	TRUE	FALSE	TRUE	TRUE	TRUE		crc1218_pcr_v1
+	crc1218_pcr_v1_otcassay	Other assay			text	3		FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_assaykit	Assay kit	The title of the kit/biologicals used.	TaqMan QSY probes	text	4		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_instru	Instrument	Device applied for the assay. If it is not in the list, select Other and fill it in the next field.	Bio-Rad CFX Opus 96	text	5		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_otcinstru	Other instrument			text	6		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_targetgene	Target	The name of the gene or DNA sequence being studied	VEGFA	text	10		FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_ncbiid	Target accession ID	A database identifier for the target gene or sequence.	NM_001025287.2	text	11		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_startmaterial	Starting material	Specify the type of nucleic acid used as the starting material.	DNA	text	12		FALSE	TRUE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_rtprimertyp	RT primer type	The type of primer used for the reverse transcription step.	Oligo(dT), Random	text	13		FALSE	TRUE	TRUE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_rtprimerconcen	RT primer concentration	The concentration of the reverse transcription primer.	50 µM	text	14		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_codingdnalen	Coding DNA length	The full length of the target gene's coding DNA sequence.	641 bp	text	15		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_pcrprimerid	PCR Primer ID	Self-defined ID for the primer pair	Vegfa_F_1, Vegfa_R_1	text	16		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_amplicon	Amplicon size	The length of the DNA fragment that primers are designed to amplify.	105 bp	text	17		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_forpri	Forward primer	A category header for the forward primer details. 		none	18	;	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_fpri_seq	Sequence (5' -> 3')	The sequence of the forward primer.	ATCTGCATTGCTGTCCAGCA	text	0	Sequence: #VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_pcr_v1_forpri	crc1218_pcr_v1
+	crc1218_pcr_v1_fpri_len	Length	The number of nucleotides.	20	text	1	Len: #VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_pcr_v1_forpri	crc1218_pcr_v1
+	crc1218_pcr_v1_fpri_tm	TM	Melting temperature in celsius.	61.1	text	2	TM: #VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_pcr_v1_forpri	crc1218_pcr_v1
+	crc1218_pcr_v1_revpri	Reverse primer	A category header for the reverse primer detatils. 		none	19	;	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_rpri_seq	Sequence (5' -> 3')	The sequence of reverse primer.	AGCCATGGAAGGGGTCTCTT	text	0	Sequence: #VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_pcr_v1_revpri	crc1218_pcr_v1
+	crc1218_pcr_v1_rpri_len	Length	The number of nucleotides.	20	text	1	Len: #VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_pcr_v1_revpri	crc1218_pcr_v1
+	crc1218_pcr_v1_rpri_tm	TM	Melting temperature in celsius.	61.8	text	2	TM: #VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_pcr_v1_revpri	crc1218_pcr_v1
+	crc1218_pcr_v1_mastermix	Master mix	The specific name and manufacturer of the master mix.	Thermo Fisher Scientific PowerUp SYBR Green Master Mix	text	20		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_reactionvol	Reaction volume	The total volume of the final reaction mix in μL	20	text	21		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_pcrcycle	PCR cycles	The total number of amplification cycles.	40	text	22		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_pcrcycletm	Temperatures	Include the temperature and duration for each step in the cycle.	Initial Denaturation: 95°C for 2 min; Denaturation: 95°C for 15 sec; Annealing/Extension: 60°C for 60 sec	text	23		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_qc	Quality control	A list of the checks performed to ensure the data is reliable.	RNA Purity, Melt Curve Analysis. The melting temperature, GC contents, and primer-dimer formation were tested by Net Primer.	text	24		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_relvpaper	Associated literature (link)	Link or DOI of the literature that is relevant to this experiment.	doi.org/10.1016/j.mocell.2024.100141	text	25	"<a href=""#VALUE"">#VALUE</a>"	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_finddata	How to find relevant data	(For metadata provider) Local path, folder name where data are store, private repository, etc. (For sharing) path in shared folder, link to public repository, etc.	F:\phd_project\2025-01_PCR	text	26	"<a href=""#VALUE"">#VALUE</a>"	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+	crc1218_pcr_v1_notes	Notes	Notes about this experiment. Either for fellow researchers or to the metadata provider in the future.		textbox	27		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_pcr_v1
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
+	crc1218_pcr_v1_assay	Quantitative Reverse Transcription PCR (qRT-PCR)	NCIT_C28408	0											
+	crc1218_pcr_v1_assay	Real Time PCR (qPCR)	NCIT_C51962	1											
+	crc1218_pcr_v1_assay	Reverse Transcription PCR (RT-PCR)	NCIT_C18136	2											
+	crc1218_pcr_v1_assay	Other	ASSAY_OTHER	10											
+	crc1218_pcr_v1_rtprimertyp	Oligo(dT) primer	RT_PRIMER_OLIGO	0											
+	crc1218_pcr_v1_rtprimertyp	Random primer	RT_PRIMER_RANDOM	1											
+	crc1218_pcr_v1_rtprimertyp	Gene-Specific primer	RT_PRIMER_GENSPEC	2											
+	crc1218_pcr_v1_instru	Bio-Rad CFX Opus 96	CFX_OPUS	0											
+	crc1218_pcr_v1_instru	Bio-Rad CFX96	CFX_96	1											
+	crc1218_pcr_v1_instru	Roche Lightcycler 480 II	ROCHE_L480	2											
+	crc1218_pcr_v1_instru	Thermo Fisher Scientific StepOnePlus RT-PCR system	TFS_STEPONEPLUS	3											
+	crc1218_pcr_v1_instru	Other	PCR_INSTRU_OTHER	4											
+	crc1218_pcr_v1_startmaterial	DNA	MATERIAL_DNA	0											
+	crc1218_pcr_v1_startmaterial	RNA	MATERIAL_RNA	1											

@@ -1,0 +1,49 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	crc1218_sequencing_v1	crc1218_sequencing_v1	CRC1218 Sequencing v1												
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	crc1218_seq_v1_doe	Date of experiment	Date or a rough date when the assay was performed.	2025-06	text	1		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_assay	Assay	If the sequencing technique is not in the list, select Other and fill it in the next field.	Bulk RNA-seq	text	2		TRUE	TRUE	FALSE	TRUE	TRUE	TRUE		crc1218_sequencing_v1
+	crc1218_seq_v1_otcassay	Other assay		 	text	3		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_assaykit	Assay kit	The title of the kit/biologicals used.	TruSeq RNA Library Prep Kit v2	text	4		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_instru	Instrument	Device used for sequencing. If it is not in the list, select Other and fill it in the next field.	ILLUMINA	text	5		TRUE	TRUE	TRUE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_otcinstru	Other instrument		 	text	6		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_runid	Run ID or Folder name	Self-defined ID or Folder name in local path where Run data is stored.		text	9		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_libid	Library name or ID	Self-defined library name or ID.		text	10		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_libselect	Library selection	A category header for the library selection details. 		none	11	 : 	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_selectedby	Selected by	Source material was selected by	PolyA	text	0	#VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE	crc1218_seq_v1_libselect	crc1218_sequencing_v1
+	crc1218_seq_v1_otclibselect	Other			text	1	#VALUE	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1218_seq_v1_libselect	crc1218_sequencing_v1
+	crc1218_seq_v1_liblayout	Library layout	Type of read.	Paired-end	text	21		FALSE	TRUE	FALSE	TRUE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_readlen	Read length		50bp	text	22		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_readdep	Read depth	Number of reads per sample.	60M	text	23		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_numsample	Number of samples		1	text	24		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_numreplica	Number of replicates	Number of replicates per sample.	2	text	25		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_qc	Quality control	If any QC procedure applied for this experiment.		text	26		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_relvpaper	Associated literature (link)	Link or DOI of the literature that is relevant to this experiment.	doi.org/10.1101/2023.11.01.565049	text	27	"<a href=""#VALUE"">#VALUE</a>"	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_finddata	How to find relevant data	(For metadata provider) Local path, folder name where data are store, private repository, etc. (For sharing) path in shared folder, link to public repository, etc.	github.com/john-doe/rnaseq/2025-06	text	28	"<a href=""#VALUE"">#VALUE</a>"	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+	crc1218_seq_v1_notes	Notes	Notes about this experiment. Either for fellow researchers or to the metadata provider in the future.		textbox	29		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1218_sequencing_v1
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
+	crc1218_seq_v1_assay	Bulk RNA seq	OBI_0003090	0											
+	crc1218_seq_v1_assay	Single-cell RNA seq (scRNA-Seq)	NCIT_C171152	1											
+	crc1218_seq_v1_assay	Single-nucleus RNA seq (snRNA-seq)	OBI_0003109	2											
+	crc1218_seq_v1_assay	Other	ASSAY_OTHER	3											
+	crc1218_seq_v1_selectedby	Oligo-dT	LIBSELC_OLIGODT	0											
+	crc1218_seq_v1_selectedby	PolyA	LIBSELC_POLYA	1											
+	crc1218_seq_v1_selectedby	Random	LIBSELC_RANDOM	2											
+	crc1218_seq_v1_selectedby	rRNA Depletion	LIBSELC_RRNADEP	3											
+	crc1218_seq_v1_selectedby	Unspecified	LIBSELC_UNSPEC	4											
+	crc1218_seq_v1_selectedby	Other	LIBSELC_OTHER	5											
+	crc1218_seq_v1_liblayout	Single-end	LIBLAY_SINGLE	0											
+	crc1218_seq_v1_liblayout	Paired-end	LIBLAY_PAIRED	1											
+	crc1218_seq_v1_instru	Illumina NextSeq 1000	ILLUMINA_NEXT1000	0											
+	crc1218_seq_v1_instru	Illumina NextSeq 2000	ILLUMINA_NEXT2000	1											
+	crc1218_seq_v1_instru	Illumina NextSeq 550	ILLUMINA_NEXT550	2											
+	crc1218_seq_v1_instru	Illumina NovaSeq 6000	ILLUMINA_NOVA6000	3											
+	crc1218_seq_v1_instru	Illumina NovaSeq X	ILLUMINA_NOVAX	4											
+	crc1218_seq_v1_instru	Illumina NovaSeq X Plus	ILLUMINA_NOVAXP	5											
+	crc1218_seq_v1_instru	Oxford Nanopore GridION	OXFORD_GRID	10											
+	crc1218_seq_v1_instru	Oxford Nanopore MinION	OXFORD_MINI	11											
+	crc1218_seq_v1_instru	Oxford Nanopore PromethION	OXFORD_PROMETH	12											
+	crc1218_seq_v1_instru	PacBio Onso	PACBIO_ONSO	20											
+	crc1218_seq_v1_instru	PacBio Revio	PACBIO_REVIO	21											
+	crc1218_seq_v1_instru	PacBio Sequel II	PACBIO_SEQII	22											
+	crc1218_seq_v1_instru	PacBio Sequel IIe	PACBIO_SEQIIE	23											
