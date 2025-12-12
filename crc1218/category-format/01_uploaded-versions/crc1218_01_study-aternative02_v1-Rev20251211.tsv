@@ -1,0 +1,25 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	crc1218_study_alternative_v1	crc1218_study_alternative_v1	CRC1218 Study Metadata v1													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	crc1218_study_alternative_v1_experimentIdentifier	Experiment ID	A code that the researcher assigns to the experiment or study.	E.g. UzK-SAC-E250731-01	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		crc1218_study_alternative_v1	http://purl.obolibrary.org/obo/NCIT_C70663
+	crc1218_study_alternative_v1_responseVariable	Experimental Response Variables	The variables that are measured during the experiment and, if applicable, the molecules that are the focus of study.	E.g. Differential gene expression of the Anp gene	none	10		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		crc1218_study_alternative_v1	
+	crc1218_study_alternative_v1_measurements	Experimental Measurements	The measurements applied to a target (e.g. differential gene expression, concentration of cells, presence/absence, etc.)		text	1		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE	crc1218_study_alternative_v1_responseVariable	crc1218_study_alternative_v1	
+	crc1218_study_alternative_v1_targetMolecules	Experimental Molecular or Subcellular Targets	List the names of the molecules or subcellular structures that are the main focus of study (e.g. genes, proteins, protein complexes, mitochondria).		text	2		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1218_study_alternative_v1_responseVariable	crc1218_study_alternative_v1	
+	crc1218_study_alternative_v1_factors	Experimental Factors	Treatments or conditions that are defined by the experimenter (e.g. treatments, genotypes, conditions, etc.).	E.g. Age, Sex, Strain, Temperature	text	11		TRUE	TRUE	TRUE	TRUE	TRUE	TRUE		crc1218_study_alternative_v1	http://purl.obolibrary.org/obo/NCIT_C164385
+	crc1218_study_alternative_v1_otherFactors	Other Experimental Factor	If Other was selected in Experimental Factors, list any other factor types that were used in this Dataset.	E.g. Specific treatments	text	12		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		crc1218_study_alternative_v1	
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	crc1218_study_alternative_v1_factors	Age	EFO_0000246	0												
+	crc1218_study_alternative_v1_factors	Cell Line	CLO_0000031	1												
+	crc1218_study_alternative_v1_factors	Cell Type	EFO_0000324	2												
+	crc1218_study_alternative_v1_factors	Compound Based Treatment	EFO_0000369	3												
+	crc1218_study_alternative_v1_factors	Developmental Stage	EFO_0000399	4												
+	crc1218_study_alternative_v1_factors	Disease State	OBI_0001293	5												
+	crc1218_study_alternative_v1_factors	Drug Susceptibility	IDO_0000469	6												
+	crc1218_study_alternative_v1_factors	Genetic Characteristics	OBI_0001404	7												
+	crc1218_study_alternative_v1_factors	Organism	OBI_0000690	9												
+	crc1218_study_alternative_v1_factors	Passage	NCIT_C54573	10												
+	crc1218_study_alternative_v1_factors	Sex	NCIT_C28421	11												
+	crc1218_study_alternative_v1_factors	Strain	EFO_0005135	12												
+	crc1218_study_alternative_v1_factors	Time Point	EFO_0000724	13												
+	crc1218_study_alternative_v1_factors	Tissue	NCIT_C12801	14												
+	crc1218_study_alternative_v1_factors	Other	OTHER_FACTOR	15												
