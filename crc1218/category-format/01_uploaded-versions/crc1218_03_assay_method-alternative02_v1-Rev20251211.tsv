@@ -11,42 +11,42 @@
 	crc1218_assay_alternative_method_v1_facilityIdentifier	Facility ID	ID from a Facility that provided a service for this dataset.		text	15		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		crc1218_assay_alternative_method_v1	
 	crc1218_assay_alternative_method_v1_protocolRef	Protocol Reference	Path to file, URL or DOI for protocol.	Disk:path-to-file\2025-01-01_sample_preparation_protocol_5	text	16	"<a href=""#VALUE"">#VALUE</a>"	TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1218_assay_alternative_method_v1	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
-	crc1218_assay_alternative_method_v1_assay	PCR (polymerase chain reaction) assay	OBI_0002692													
-	crc1218_assay_alternative_method_v1_assay	RT-PCR (reverse transcribed PCR) assay	OBI_0000552													
-	crc1218_assay_alternative_method_v1_assay	qPCR (real time PCR) assay	OBI_0000893													
-	crc1218_assay_alternative_method_v1_assay	PCR dot blot	PCR_DOTBLOT													
-	crc1218_assay_alternative_method_v1_assay	cDNA microarray	EFO_0030075													
-	crc1218_assay_alternative_method_v1_assay	Western Blot assay	OBI_0000854													
-	crc1218_assay_alternative_method_v1_assay	ELISA (enzyme-linked immunosorbent assay)	OBI_0000661													
-	crc1218_assay_alternative_method_v1_assay	Mass Spectrometry assay	OBI_0000470													
-	crc1218_assay_alternative_method_v1_assay	LC/MS (Liquid Chromatography Mass Spectrometry) assay	CHMO_0000524													
-	crc1218_assay_alternative_method_v1_assay	GS/MS (Gas Chromatography Mass Spectrometry) assay	CHMO_0000497													
-	crc1218_assay_alternative_method_v1_assay	CXMS (Chemical Cross-Linking Coupled with Mass Spectrometry)	PRIDE_0000430													
-	crc1218_assay_alternative_method_v1_assay	AP-MS (Affinity Purification Coupled with Mass Spectrometry)	PRIDE_0000431													
-	crc1218_assay_alternative_method_v1_assay	Protein array	EFO_0002702													
-	crc1218_assay_alternative_method_v1_assay	Protein-protein interaction detection assay	OBI_0000288													
-	crc1218_assay_alternative_method_v1_assay	Proteome Integral Solubility Alteration (PISA) assay	PISA_ASSAY													
-	crc1218_assay_alternative_method_v1_assay	Co-immunoprecipitation	NCIT_C19830													
-	crc1218_assay_alternative_method_v1_assay	Flow Cytometry assay	OBI_0000916													
-	crc1218_assay_alternative_method_v1_assay	RNA-seq assay	OBI_0001271													
-	crc1218_assay_alternative_method_v1_assay	ChIP-seq assay	OBI_0000716													
-	crc1218_assay_alternative_method_v1_assay	ChIP-qPCR assay	OBI_0002169													
-	crc1218_assay_alternative_method_v1_assay	ATAC-seq (assay for transposase-accessible chromatin using sequencing) assay	OBI_0002039													
-	crc1218_assay_alternative_method_v1_assay	DNase-hypersensitivity seq assay	EFO_0003752													
-	crc1218_assay_alternative_method_v1_assay	Bisulfite Sequencing assay	OBI_0000748													
-	crc1218_assay_alternative_method_v1_assay	DNA Methylation Profiling by Array assay	OBI_0001332													
-	crc1218_assay_alternative_method_v1_assay	Luciferase Reporter Gene assay	BAO_0002661													
-	crc1218_assay_alternative_method_v1_assay	β-galactosidase Reporter Gene assay	BAO_0003013													
-	crc1218_assay_alternative_method_v1_assay	Immunofluorescence assay	EFO_0022944													
-	crc1218_assay_alternative_method_v1_assay	Immunohistochemistry Staining Method	NCIT_C23020													
-	crc1218_assay_alternative_method_v1_assay	Confocal microscopy	CHMO_0000103													
-	crc1218_assay_alternative_method_v1_assay	Electron microscopy	CHMO_0000068													
-	crc1218_assay_alternative_method_v1_assay	Single-cell RNA sequencing	EFO_0008913													
-	crc1218_assay_alternative_method_v1_assay	Single-cell ATAC-sequencing	EFO_0010891													
-	crc1218_assay_alternative_method_v1_assay	Isothermal titration calorimetry	CHMO_0000683													
-	crc1218_assay_alternative_method_v1_assay	Cell viability assay	OBI_0003583													
-	crc1218_assay_alternative_method_v1_assay	Cell proliferation assay	OBI_0000891													
-	crc1218_assay_alternative_method_v1_assay	Other	OTHER_ASSAYTYPE													
+	crc1218_assay_alternative_method_v1_assay	PCR (polymerase chain reaction) assay	OBI_0002692	0												
+	crc1218_assay_alternative_method_v1_assay	RT-PCR (reverse transcribed PCR) assay	OBI_0000552	1												
+	crc1218_assay_alternative_method_v1_assay	qPCR (real time PCR) assay	OBI_0000893	2												
+	crc1218_assay_alternative_method_v1_assay	PCR dot blot	PCR_DOTBLOT	3												
+	crc1218_assay_alternative_method_v1_assay	cDNA microarray	EFO_0030075	4												
+	crc1218_assay_alternative_method_v1_assay	Western Blot assay	OBI_0000854	5												
+	crc1218_assay_alternative_method_v1_assay	ELISA (enzyme-linked immunosorbent assay)	OBI_0000661	6												
+	crc1218_assay_alternative_method_v1_assay	Mass Spectrometry assay	OBI_0000470	7												
+	crc1218_assay_alternative_method_v1_assay	LC/MS (Liquid Chromatography Mass Spectrometry) assay	CHMO_0000524	8												
+	crc1218_assay_alternative_method_v1_assay	GS/MS (Gas Chromatography Mass Spectrometry) assay	CHMO_0000497	9												
+	crc1218_assay_alternative_method_v1_assay	CXMS (Chemical Cross-Linking Coupled with Mass Spectrometry)	PRIDE_0000430	10												
+	crc1218_assay_alternative_method_v1_assay	AP-MS (Affinity Purification Coupled with Mass Spectrometry)	PRIDE_0000431	11												
+	crc1218_assay_alternative_method_v1_assay	Protein array	EFO_0002702	12												
+	crc1218_assay_alternative_method_v1_assay	Protein-protein interaction detection assay	OBI_0000288	13												
+	crc1218_assay_alternative_method_v1_assay	Proteome Integral Solubility Alteration (PISA) assay	PISA_ASSAY	14												
+	crc1218_assay_alternative_method_v1_assay	Co-immunoprecipitation	NCIT_C19830	15												
+	crc1218_assay_alternative_method_v1_assay	Flow Cytometry assay	OBI_0000916	16												
+	crc1218_assay_alternative_method_v1_assay	RNA-seq assay	OBI_0001271	17												
+	crc1218_assay_alternative_method_v1_assay	ChIP-seq assay	OBI_0000716	18												
+	crc1218_assay_alternative_method_v1_assay	ChIP-qPCR assay	OBI_0002169	19												
+	crc1218_assay_alternative_method_v1_assay	ATAC-seq (assay for transposase-accessible chromatin using sequencing) assay	OBI_0002039	20												
+	crc1218_assay_alternative_method_v1_assay	DNase-hypersensitivity seq assay	EFO_0003752	21												
+	crc1218_assay_alternative_method_v1_assay	Bisulfite Sequencing assay	OBI_0000748	22												
+	crc1218_assay_alternative_method_v1_assay	DNA Methylation Profiling by Array assay	OBI_0001332	23												
+	crc1218_assay_alternative_method_v1_assay	Luciferase Reporter Gene assay	BAO_0002661	24												
+	crc1218_assay_alternative_method_v1_assay	β-galactosidase Reporter Gene assay	BAO_0003013	25												
+	crc1218_assay_alternative_method_v1_assay	Immunofluorescence assay	EFO_0022944	26												
+	crc1218_assay_alternative_method_v1_assay	Immunohistochemistry Staining Method	NCIT_C23020	27												
+	crc1218_assay_alternative_method_v1_assay	Confocal microscopy	CHMO_0000103	28												
+	crc1218_assay_alternative_method_v1_assay	Electron microscopy	CHMO_0000068	29												
+	crc1218_assay_alternative_method_v1_assay	Single-cell RNA sequencing	EFO_0008913	30												
+	crc1218_assay_alternative_method_v1_assay	Single-cell ATAC-sequencing	EFO_0010891	31												
+	crc1218_assay_alternative_method_v1_assay	Isothermal titration calorimetry	CHMO_0000683	32												
+	crc1218_assay_alternative_method_v1_assay	Cell viability assay	OBI_0003583	33												
+	crc1218_assay_alternative_method_v1_assay	Cell proliferation assay	OBI_0000891	34												
+	crc1218_assay_alternative_method_v1_assay	Other	OTHER_ASSAYTYPE	35												
 	crc1218_assay_alternative_method_v1_instrument	BD FACS Canto II	BD_CANTOII	0												
 	crc1218_assay_alternative_method_v1_instrument	BD INFLUX Cell Sorter	BD_INFLUX	1												
 	crc1218_assay_alternative_method_v1_instrument	BD LSRFortessa Cell Analyzer	BD_LSR	2												

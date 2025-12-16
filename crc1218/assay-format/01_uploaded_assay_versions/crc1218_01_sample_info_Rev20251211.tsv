@@ -20,7 +20,7 @@
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder											
 	crc1218_sample_v1_organism	Homo sapiens	NCBITaxon_9606	0											
 	crc1218_sample_v1_organism	Mus musculus	NCBITaxon_10090	1											
-	crc1218_sample_v1_organism	Other	OTHER_ORGANISM												
+	crc1218_sample_v1_organism	Other	OTHER_ORGANISM	2											
 	crc1218_sample_v1_model	Double Knock-out (DKO)	MODEL_DKO	0											
 	crc1218_sample_v1_model	Knockin	MCO_0000046	1											
 	crc1218_sample_v1_model	Knockout	MCO_0000042	2											
