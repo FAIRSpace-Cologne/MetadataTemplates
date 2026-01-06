@@ -1,0 +1,149 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	crc1607_sample_summary_v1	crc1607_sample_summary_v1	CRC1607 Summary of Samples v1													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	crc1607_sample_summary_v1_organism	Organism	The taxonomic name of the organism used in the Dataset or from which the starting biological material derives.	E.g. Homo sapiens, Mus musculus	text	0		TRUE	TRUE	TRUE	TRUE	TRUE	TRUE		crc1607_sample_summary_v1	http://purl.obolibrary.org/obo/NCIT_C14250
+	crc1607_sample_summary_v1_otherOrganism	Other Organism	If Other was selected in Organism, list any other organisms that were used in this Dataset. Terms from the NCBI Taxonomy are recommended.		text	1		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1607_sample_summary_v1	
+	crc1607_sample_summary_v1_strain	Strain	Strain of model organism.	E.g. NSG mouse strain	text	2		TRUE	TRUE	TRUE	FALSE	TRUE	FALSE		crc1607_sample_summary_v1	http://www.ebi.ac.uk/efo/EFO_0005135
+	crc1607_sample_summary_v1_otherStrain	Other Strain	If Other was selected in Strain, list any other strains that were used in this Dataset. 		text	3		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1607_sample_summary_v1	
+	crc1607_sample_summary_v1_genotype	Genotype	Whether the samples sustained genetic modifications (e.g. Knockout) or not (e.g. Wild Type). If applicable, list all genotypes used in this experiment (e.g. Wild Type, Knockdown)	E.g. Wild Type, Knockout, Knockdown	text	4		TRUE	TRUE	TRUE	TRUE	TRUE	FALSE		crc1607_sample_summary_v1	http://www.ebi.ac.uk/efo/EFO_0000513
+	crc1607_sample_summary_v1_sampleType	Sample Type	General types of samples.	E.g. Whole organism	text	5		FALSE	TRUE	TRUE	FALSE	TRUE	FALSE		crc1607_sample_summary_v1	http://purl.obolibrary.org/obo/NCIT_C210102
+	crc1607_sample_summary_v1_otherSampleType	Other Sample Type	If Other was selected in Sample Type, list any other sample types that were used in this Dataset. 	E.g. Molecular extract	text	6		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1607_sample_summary_v1	
+	crc1607_sample_summary_v1_nSamples	Sample Size	Number of subjects or samples.		int	7		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1607_sample_summary_v1	http://purl.obolibrary.org/obo/NCIT_C53190
+	crc1607_sample_summary_v1_tissue	Tissue Source	If applicable, Tissues or anatomical sources used.	E.g. Heart, Brain	text	8		TRUE	TRUE	TRUE	FALSE	TRUE	FALSE		crc1607_sample_summary_v1	http://purl.obolibrary.org/obo/UBERON_0000479
+	crc1607_sample_summary_v1_otherTissue	Other Tissue Source	If Other was selected in Tissue Source, list any other tissue sources that were used in this Dataset. 		text	9		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1607_sample_summary_v1	
+	crc1607_sample_summary_v1_cellLine	Cell Line	If applicable, Cell Lines used.	E.g. HeLa	text	10		TRUE	TRUE	TRUE	FALSE	TRUE	FALSE		crc1607_sample_summary_v1	http://purl.obolibrary.org/obo/CLO_0000031
+	crc1607_sample_summary_v1_otherCellLine	Other Cell Line	If Other was selected in Cell Line, list any other cell lines that were used in this Dataset. 		text	11		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1607_sample_summary_v1	
+	crc1607_sample_summary_v1_collectionSummary	Additional information about samples	Brief description of e.g. genetic background, sample rearing and/or collection.	E.g. Genetic background, relevant details of rearing/collection of organisms	textbox	12		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1607_sample_summary_v1	
+	crc1607_sample_summary_v1_collectionProtocolLink	Rearing or Collection Protocol Link	URL or DOI of the protocol that describes comprehensibly the rearing and maintenance conditions of the organism and/or its collection methods.	https://dx.doi.org/10.17504/protocols.io.kxygxyxmdl8j/v2	text	13	"<a href=""#VALUE"">#VALUE</a>"	TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1607_sample_summary_v1	
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	crc1607_sample_summary_v1_organism	Bos taurus	NCBITaxon_9913	0												
+	crc1607_sample_summary_v1_organism	Caenorhabditis elegans	NCBITaxon_6239	1												
+	crc1607_sample_summary_v1_organism	Danio rerio (zebrafish)	NCBITaxon_7955	2												
+	crc1607_sample_summary_v1_organism	Drosophila melanogaster	NCBITaxon_7227	3												
+	crc1607_sample_summary_v1_organism	Escherichia coli	NCBITaxon_562	4												
+	crc1607_sample_summary_v1_organism	Homo sapiens	NCBITaxon_9606	5												
+	crc1607_sample_summary_v1_organism	Mus musculus	NCBITaxon_10090	6												
+	crc1607_sample_summary_v1_organism	Rattus norvegicus	NCBITaxon_10116	7												
+	crc1607_sample_summary_v1_organism	Saccharomyces cerevisiae (brewer's yeast)	NCBITaxon_4932	8												
+	crc1607_sample_summary_v1_organism	Schizosaccharomyces pombe	NCBITaxon_4896	9												
+	crc1607_sample_summary_v1_organism	Other	OTHER_TAXONOMY	10												
+	crc1607_sample_summary_v1_strain	129/Sv mouse strain	MGI_2161069	0												
+	crc1607_sample_summary_v1_strain	BALB/c mouse strain	MGI_2161072	1												
+	crc1607_sample_summary_v1_strain	C3H/HeJ mouse strain	MGI_2159741	2												
+	crc1607_sample_summary_v1_strain	C57BL/6J mouse strain	MGI_3028467	3												
+	crc1607_sample_summary_v1_strain	C57BL/6N mouse strain	MGI_2159965	4												
+	crc1607_sample_summary_v1_strain	DBA/2J mouse strain	MGI_2684695	5												
+	crc1607_sample_summary_v1_strain	FVB/NJ mouse strain	MGI_2163709	6												
+	crc1607_sample_summary_v1_strain	LEW/SsN rat strain	RGD_728186	7												
+	crc1607_sample_summary_v1_strain	Long-Evans rat strain	RGD_60991	8												
+	crc1607_sample_summary_v1_strain	NOD/ShiLtJ mouse strain	MGI_2162056	9												
+	crc1607_sample_summary_v1_strain	NSG mouse strain	MGI_3577020	10												
+	crc1607_sample_summary_v1_strain	Sprague-Dawley rat strain	RGD_70508	11												
+	crc1607_sample_summary_v1_strain	Wistar rat strain	RGD_13508588	12												
+	crc1607_sample_summary_v1_strain	Zebrafish AB strain	ZDB-GENO-960809-7	13												
+	crc1607_sample_summary_v1_strain	Zebrafish TU (Tuebingen) strain	ZDB-GENO-990623-3	14												
+	crc1607_sample_summary_v1_strain	Other	OTHER_STRAIN	15												
+	crc1607_sample_summary_v1_sampleType	Whole Organism	NCIT_C13413	0												
+	crc1607_sample_summary_v1_sampleType	Tissue	UBERON_0000479	1												
+	crc1607_sample_summary_v1_sampleType	Cell	NCIT_C12508	2												
+	crc1607_sample_summary_v1_sampleType	Other	OTHER_SAMPLETYPE	3												
+	crc1607_sample_summary_v1_tissue	Adipose tissue	UBERON_0001013	0												
+	crc1607_sample_summary_v1_tissue	Blood	UBERON_0000178	1												
+	crc1607_sample_summary_v1_tissue	Bone marrow	UBERON_0002371	2												
+	crc1607_sample_summary_v1_tissue	Brain	UBERON_0000955	3												
+	crc1607_sample_summary_v1_tissue	Cerebellum	UBERON_0002037	4												
+	crc1607_sample_summary_v1_tissue	Cerebral cortex	UBERON_0000956	5												
+	crc1607_sample_summary_v1_tissue	Colon	UBERON_0001155	6												
+	crc1607_sample_summary_v1_tissue	Embryo	UBERON_0000922	7												
+	crc1607_sample_summary_v1_tissue	Embryonic tissue	UBERON_0005291	8												
+	crc1607_sample_summary_v1_tissue	Epithelial tissue	UBERON_0000483	9												
+	crc1607_sample_summary_v1_tissue	Heart	UBERON_0000948	10												
+	crc1607_sample_summary_v1_tissue	Hippocampus	UBERON_0001954	11												
+	crc1607_sample_summary_v1_tissue	Intestine	UBERON_0000160	12												
+	crc1607_sample_summary_v1_tissue	Kidney	UBERON_0002113	13												
+	crc1607_sample_summary_v1_tissue	Liver	UBERON_0002107	14												
+	crc1607_sample_summary_v1_tissue	Lung	UBERON_0002048	15												
+	crc1607_sample_summary_v1_tissue	Lymph node	UBERON_0000029	16												
+	crc1607_sample_summary_v1_tissue	Ovary	UBERON_0000992	17												
+	crc1607_sample_summary_v1_tissue	Pancreas	UBERON_0001264	18												
+	crc1607_sample_summary_v1_tissue	Skeletal muscle	UBERON_0001134	19												
+	crc1607_sample_summary_v1_tissue	Skin	UBERON_0002097	20												
+	crc1607_sample_summary_v1_tissue	Small intestine	UBERON_0002108	21												
+	crc1607_sample_summary_v1_tissue	Spleen	UBERON_0002106	22												
+	crc1607_sample_summary_v1_tissue	Testis	UBERON_0000473	23												
+	crc1607_sample_summary_v1_tissue	Thymus	UBERON_0002370	24												
+	crc1607_sample_summary_v1_tissue	Other	OTHER_TISSUE	25												
+	crc1607_sample_summary_v1_cellLine	786-O	CVCL_1051	0												
+	crc1607_sample_summary_v1_cellLine	A-498	CVCL_1056	1												
+	crc1607_sample_summary_v1_cellLine	A-549	CVCL_0023	2												
+	crc1607_sample_summary_v1_cellLine	ACHN	CVCL_1067	3												
+	crc1607_sample_summary_v1_cellLine	BT-549	CVCL_1092	4												
+	crc1607_sample_summary_v1_cellLine	Caki-1	CVCL_0234	5												
+	crc1607_sample_summary_v1_cellLine	COLO 205	CVCL_0218	6												
+	crc1607_sample_summary_v1_cellLine	CCRF-CEM	CVCL_0207	7												
+	crc1607_sample_summary_v1_cellLine	DU145	CVCL_0105	8												
+	crc1607_sample_summary_v1_cellLine	EKVX	CVCL_1195	9												
+	crc1607_sample_summary_v1_cellLine	HCC2998	CVCL_1266	10												
+	crc1607_sample_summary_v1_cellLine	HCT 116	CVCL_0291	11												
+	crc1607_sample_summary_v1_cellLine	HCT 15	CVCL_0292	12												
+	crc1607_sample_summary_v1_cellLine	HEK293	CVCL_0045	13												
+	crc1607_sample_summary_v1_cellLine	HEK293T	CVCL_0063	14												
+	crc1607_sample_summary_v1_cellLine	HeLa	CVCL_0030	15												
+	crc1607_sample_summary_v1_cellLine	HL-60(TB)	CVCL_A794	16												
+	crc1607_sample_summary_v1_cellLine	HOP-62	CVCL_1285	17												
+	crc1607_sample_summary_v1_cellLine	HOP-92	CVCL_1286	18												
+	crc1607_sample_summary_v1_cellLine	HT-29	CVCL_0320	19												
+	crc1607_sample_summary_v1_cellLine	IGROV-1	CVCL_1304	20												
+	crc1607_sample_summary_v1_cellLine	Jurkat	CVCL_0065	21												
+	crc1607_sample_summary_v1_cellLine	JVM-13	CVCL_1318	22												
+	crc1607_sample_summary_v1_cellLine	JVM-2	CVCL_1319	23												
+	crc1607_sample_summary_v1_cellLine	K-562	CVCL_0004	24												
+	crc1607_sample_summary_v1_cellLine	KM12	CVCL_1331	25												
+	crc1607_sample_summary_v1_cellLine	LOX-IMVI	CVCL_1381	26												
+	crc1607_sample_summary_v1_cellLine	M14	CVCL_1395	27												
+	crc1607_sample_summary_v1_cellLine	Malme-3M	CVCL_1438	28												
+	crc1607_sample_summary_v1_cellLine	MCF-7	CVCL_0031	29												
+	crc1607_sample_summary_v1_cellLine	MDA-MB-231	CVCL_0062	30												
+	crc1607_sample_summary_v1_cellLine	MDA-MB-435	CVCL_0417	31												
+	crc1607_sample_summary_v1_cellLine	MDA-MB-468	CVCL_0419	32												
+	crc1607_sample_summary_v1_cellLine	MOLT-4	CVCL_0013	33												
+	crc1607_sample_summary_v1_cellLine	NCEB-1	CVCL_1875	34												
+	crc1607_sample_summary_v1_cellLine	NCI-ADR-RES	CVCL_1452	35												
+	crc1607_sample_summary_v1_cellLine	NCI-H226	CVCL_1544	36												
+	crc1607_sample_summary_v1_cellLine	NCI-H23	CVCL_1547	37												
+	crc1607_sample_summary_v1_cellLine	NCI-H322M	CVCL_1557	38												
+	crc1607_sample_summary_v1_cellLine	NCI-H460	CVCL_0459	39												
+	crc1607_sample_summary_v1_cellLine	NCI-H522	CVCL_1567	40												
+	crc1607_sample_summary_v1_cellLine	OVCAR-3	CVCL_0465	41												
+	crc1607_sample_summary_v1_cellLine	OVCAR-4	CVCL_1627	42												
+	crc1607_sample_summary_v1_cellLine	OVCAR-5	CVCL_1628	43												
+	crc1607_sample_summary_v1_cellLine	OVCAR-8	CVCL_1629	44												
+	crc1607_sample_summary_v1_cellLine	PC-3	CVCL_0035	45												
+	crc1607_sample_summary_v1_cellLine	RPMI-8226	CVCL_0014	46												
+	crc1607_sample_summary_v1_cellLine	SF268	CVCL_1689	47												
+	crc1607_sample_summary_v1_cellLine	SF295	CVCL_1690	48												
+	crc1607_sample_summary_v1_cellLine	SF539	CVCL_1691	49												
+	crc1607_sample_summary_v1_cellLine	SK-MEL-2	CVCL_0069	50												
+	crc1607_sample_summary_v1_cellLine	SK-MEL-28	CVCL_0526	51												
+	crc1607_sample_summary_v1_cellLine	SK-MEL-5	CVCL_0527	52												
+	crc1607_sample_summary_v1_cellLine	SK-OV-3	CVCL_0532	53												
+	crc1607_sample_summary_v1_cellLine	SNB-19	CVCL_0535	54												
+	crc1607_sample_summary_v1_cellLine	SNB-75	CVCL_1706	55												
+	crc1607_sample_summary_v1_cellLine	SR	CVCL_1711	56												
+	crc1607_sample_summary_v1_cellLine	SW620	CVCL_0547	57												
+	crc1607_sample_summary_v1_cellLine	T-47D	CVCL_0553	58												
+	crc1607_sample_summary_v1_cellLine	THP-1	CVCL_0006	59												
+	crc1607_sample_summary_v1_cellLine	TK-10	CVCL_1773	60												
+	crc1607_sample_summary_v1_cellLine	U-251MG	CVCL_0021	61												
+	crc1607_sample_summary_v1_cellLine	U-937	CVCL_0007	62												
+	crc1607_sample_summary_v1_cellLine	UACC-257	CVCL_1779	63												
+	crc1607_sample_summary_v1_cellLine	UACC-62	CVCL_1780	64												
+	crc1607_sample_summary_v1_cellLine	UO-31	CVCL_1911	65												
+	crc1607_sample_summary_v1_cellLine	Z-138	CVCL_B077	66												
+	crc1607_sample_summary_v1_cellLine	Other	OTHER_CELLLINE	67												
+	crc1607_sample_summary_v1_genotype	Wild Type	EFO_0005168	0												
+	crc1607_sample_summary_v1_genotype	Knockdown	OBI_0002625	1												
+	crc1607_sample_summary_v1_genotype	Knockout	OBI_0001148	2												
+	crc1607_sample_summary_v1_genotype	Conditional knockout	COND_KO	3												
+	crc1607_sample_summary_v1_genotype	Knock-in	OBI_0001149	4												
+	crc1607_sample_summary_v1_genotype	Overexpression	OVER_EXP	5												
