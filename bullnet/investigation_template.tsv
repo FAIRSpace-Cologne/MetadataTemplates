@@ -1,13 +1,13 @@
-#metadataBlock	crc_bullnet_investigation	crc_bullnet_investigation	BullNet Investigation (WP) Template
+#metadataBlock	name	dataverseAlias	displayName													
+	crc1607_investigation_v1	crc1607_investigation_v1	CRC1607 Investigation (Work Package) Metadata v1													
 #datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	investigation_id	Investigation ID	Unique Work Package identifier (e.g., WP1_BullNet)		text	1		true	false	false	true	true	true		crc_bullnet_investigation	
-	title	Investigation Title	Human-readable title of the investigation / work package		text	2		true	false	false	true	true	true		crc_bullnet_investigation	
-	description	Description	Detailed description of the investigation objectives and scope		textarea	3		false	false	false	true	true	false		crc_bullnet_investigation	
-	lead_organisation	Lead Organisation	Institution leading the work package (ROR preferred)		text	4		true	false	false	true	true	true		crc_bullnet_investigation	
-	start_date	Start Date	Investigation start date (YYYY-MM-DD)		date	5	yyyy-MM-dd	true	false	false	true	true	true		crc_bullnet_investigation	
-	end_date	End Date	Investigation end date (YYYY-MM-DD)		date	6	yyyy-MM-dd	true	false	false	true	true	true		crc_bullnet_investigation	
-	funding_source	Funding Source	Funding programme and grant identifier (e.g., Horizon Europe MSCA Grant No.)		text	7		false	false	false	true	true	true		crc_bullnet_investigation	
-	contributors	Contributors	Contributors involved in the investigation (name; role; ORCID)		textarea	8		false	false	false	true	false	false		crc_bullnet_investigation	
-	related_publications	Related Publications	DOIs or citations related to this investigation		text	9		false	false	false	true	false	false		crc_bullnet_investigation	
-	keywords	Keywords	Keywords describing the investigation (comma-separated)		text	10		true	false	true	true	false	false		crc_bullnet_investigation	
-
+	crc1607_investigation_v1_investigationIdentifier	Investigation ID	Unique identifier for the Work Package / Investigation.	E.g. WP1_EarlyLifeNutrition	text	0		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1607_investigation_v1	http://purl.obolibrary.org/obo/OBI_0001612
+	crc1607_investigation_v1_title	Investigation Title	Human-readable title of the investigation or work package.		text	1		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1607_investigation_v1	http://purl.obolibrary.org/obo/NCIT_C42614
+	crc1607_investigation_v1_description	Description	Overall description of objectives, scope, and scientific rationale of the work package.		textarea	2		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1607_investigation_v1	
+	crc1607_investigation_v1_leadInstitution	Lead Institution	Institution responsible for leading this investigation / WP.	E.g. University of Cologne	text	3		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1607_investigation_v1	http://purl.obolibrary.org/obo/NCIT_C25412
+	crc1607_investigation_v1_contactPerson	Contact Person	Main scientific or administrative contact (name, email, ORCID if available).		textarea	4		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1607_investigation_v1	
+	crc1607_investigation_v1_startDate	Start Date	Start date of the investigation (YYYY-MM-DD).		date	5	yyyy-MM-dd	TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1607_investigation_v1	http://purl.obolibrary.org/obo/NCIT_C68615
+	crc1607_investigation_v1_endDate	End Date	End date of the investigation (YYYY-MM-DD).		date	6	yyyy-MM-dd	TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1607_investigation_v1	http://purl.obolibrary.org/obo/NCIT_C68616
+	crc1607_investigation_v1_funding	Funding Source	Funding programme and grant identifier (e.g. Horizon Europe MSCA, Grant No.).		text	7		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1607_investigation_v1	http://purl.obolibrary.org/obo/NCIT_C39452
+	crc1607_investigation_v1_relatedStudies	Related Studies	Identifiers of studies (DC-level) associated with this investigation.	E.g. DC1, DC3	text	8		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		crc1607_investigation_v1	
+	crc1607_investigation_v1_keywords	Keywords	Keywords describing the investigation (comma-separated).		text	9		TRUE	FALSE	TRUE	FALSE	FALSE	FALSE		crc1607_investigation_v1	
