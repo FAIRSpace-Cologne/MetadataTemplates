@@ -17,3 +17,11 @@
 	bullnet_sample_summary_v1_sampleType	Blood Serum	OBI_0001836	2												
 	bullnet_sample_summary_v1_sampleType	Tissue Sample	OBI_0001479	3												
 	bullnet_sample_summary_v1_sampleType	Other	OTHER_SAMPLE	99												
+	bullnet_sample_summary_v1_collectionMethod	Artificial Vagina	OBI_0000659	0												
+	bullnet_sample_summary_v1_collectionMethod	Electroejaculation	OBI_0002402	1												
+	bullnet_sample_summary_v1_collectionMethod	Post-mortem Recovery	OBI_0002500	2												
+	bullnet_sample_summary_v1_collectionMethod	Other	OTHER_METHOD	99												
+	bullnet_sample_summary_v1_storageType	Fresh	OBI_0002504	0												
+	bullnet_sample_summary_v1_storageType	Cryopreserved	OBI_0000919	1												
+	bullnet_sample_summary_v1_storageType	Fixed	OBI_0002508	2												
+	bullnet_sample_summary_v1_storageType	Other	OTHER_STORAGE	99												
