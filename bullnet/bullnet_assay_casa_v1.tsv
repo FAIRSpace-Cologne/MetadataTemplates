@@ -1,0 +1,10 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	bullnet_assay_casa_v1	bullnet_assay_casa_v1	BullNet CASA Assay Metadata v1													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	bullnet_assay_casa_v1_systemVendor	CASA System Vendor	Vendor of the CASA system.		text	0		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		bullnet_assay_casa_v1	
+	bullnet_assay_casa_v1_softwareVersion	Software Version	Version of CASA software used.		text	1		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		bullnet_assay_casa_v1	
+	bullnet_assay_casa_v1_chamberType	Chamber Type	Type of chamber used for CASA.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_assay_casa_v1	
+	bullnet_assay_casa_v1_temperature	Temperature (°C)	Analysis temperature.		number	3		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_assay_casa_v1	
+	bullnet_assay_casa_v1_frameRate	Frame Rate	Frame rate used during analysis (fps).		number	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_assay_casa_v1	
+	bullnet_assay_casa_v1_kineticParameters	Kinetic Parameters Reported	List of reported CASA parameters (VAP, VSL, STR, etc.).		textarea	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_assay_casa_v1	
+	bullnet_assay_casa_v1_thresholds	Threshold Definitions	Thresholds used for motility classification.		textarea	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_assay_casa_v1	

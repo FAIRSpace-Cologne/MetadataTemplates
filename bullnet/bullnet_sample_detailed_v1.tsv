@@ -1,0 +1,12 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	bullnet_sample_detailed_v1	bullnet_sample_detailed_v1	BullNet Per-Sample Metadata v1													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	bullnet_sample_detailed_v1_sampleID	Sample ID	Globally unique sample identifier.	E.g. DC1_BULL12_SEM_01	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		bullnet_sample_detailed_v1	
+	bullnet_sample_detailed_v1_parentSample	Parent Sample ID	Identifier of parent sample (if aliquot/derived).		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_sample_detailed_v1	
+	bullnet_sample_detailed_v1_animalID	Animal ID	Unique identifier of the animal.		text	2		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		bullnet_sample_detailed_v1	
+	bullnet_sample_detailed_v1_collectionDate	Collection Date & Time	ISO 8601 timestamp of collection.		text	3		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		bullnet_sample_detailed_v1	
+	bullnet_sample_detailed_v1_sampleType	Sample Type	Biological material type.		none	4		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE		bullnet_sample_detailed_v1	
+	bullnet_sample_detailed_v1_volume	Volume / Amount	Volume (mL) or mass (g) of sample.		text	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_sample_detailed_v1	
+	bullnet_sample_detailed_v1_storageLocation	Storage Location	Biobank / freezer / position.		text	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_sample_detailed_v1	
+	bullnet_sample_detailed_v1_qcStatus	QC Status	Quality control status of the sample.		none	7		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		bullnet_sample_detailed_v1	
+	bullnet_sample_detailed_v1_files	Linked Files	Associated raw or derived data files.		textarea	8		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_sample_detailed_v1	
