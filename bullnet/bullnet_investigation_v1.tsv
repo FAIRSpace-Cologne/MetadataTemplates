@@ -12,3 +12,9 @@
 	bullnet_investigation_v1_fundingProgramme	Funding Programme	Funding programme supporting this Investigation.		none	8		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE		bullnet_investigation_v1	
 	bullnet_investigation_v1_grantIdentifier	Grant Identifier	Grant agreement number or identifier.		text	9		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_investigation_v1	
 	bullnet_investigation_v1_keywords	Keywords	Keywords describing the Investigation (comma-separated).		text	10		TRUE	FALSE	TRUE	FALSE	FALSE	FALSE		bullnet_investigation_v1	
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	bullnet_investigation_v1_wpTheme	Early life nutrition and epigenetics	BULLNET_WP_THEME_01	0												
+	bullnet_investigation_v1_wpTheme	Sperm maturation and function	BULLNET_WP_THEME_02	1												
+	bullnet_investigation_v1_wpTheme	Fertility phenotyping and biomarkers	BULLNET_WP_THEME_03	2												
+	bullnet_investigation_v1_wpTheme	Data integration and knowledge graphs	BULLNET_WP_THEME_04	3												
+	bullnet_investigation_v1_wpTheme	AI and distributed learning	BULLNET_WP_THEME_05	4												
