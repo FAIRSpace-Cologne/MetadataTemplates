@@ -1,0 +1,14 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	bullnet_investigation_v1	bullnet_investigation_v1	BullNet Investigation (Work Package) Metadata v1													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	bullnet_investigation_v1_investigationIdentifier	Investigation ID	Unique identifier for the Investigation / Work Package.	E.g. WP1_EarlyLifeNutrition	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		bullnet_investigation_v1	http://purl.obolibrary.org/obo/OBI_0001612
+	bullnet_investigation_v1_title	Investigation Title	Human-readable title of the Work Package.		text	1		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		bullnet_investigation_v1	http://purl.obolibrary.org/obo/NCIT_C42614
+	bullnet_investigation_v1_description	Description	Scientific scope and objectives of the Investigation / WP.		textarea	2		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		bullnet_investigation_v1	
+	bullnet_investigation_v1_wpTheme	WP Theme	Thematic focus of the Work Package.		none	3		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE		bullnet_investigation_v1	
+	bullnet_investigation_v1_leadInstitution	Lead Institution	Institution coordinating this Investigation / WP.		text	4		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		bullnet_investigation_v1	http://purl.obolibrary.org/obo/NCIT_C25412
+	bullnet_investigation_v1_contactPerson	Contact Person	Main contact person (name, email, ORCID if available).		textarea	5		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		bullnet_investigation_v1	
+	bullnet_investigation_v1_startDate	Start Date	Start date of the Investigation (YYYY-MM-DD).		date	6	yyyy-MM-dd	TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		bullnet_investigation_v1	http://purl.obolibrary.org/obo/NCIT_C68615
+	bullnet_investigation_v1_endDate	End Date	End date of the Investigation (YYYY-MM-DD).		date	7	yyyy-MM-dd	TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		bullnet_investigation_v1	http://purl.obolibrary.org/obo/NCIT_C68616
+	bullnet_investigation_v1_fundingProgramme	Funding Programme	Funding programme supporting this Investigation.		none	8		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE		bullnet_investigation_v1	
+	bullnet_investigation_v1_grantIdentifier	Grant Identifier	Grant agreement number or identifier.		text	9		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_investigation_v1	
+	bullnet_investigation_v1_keywords	Keywords	Keywords describing the Investigation (comma-separated).		text	10		TRUE	FALSE	TRUE	FALSE	FALSE	FALSE		bullnet_investigation_v1	
