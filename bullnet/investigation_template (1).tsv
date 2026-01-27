@@ -1,0 +1,13 @@
+#metadataBlock	crc_bullnet_investigation	crc_bullnet_investigation	BullNet Investigation (WP) Template
+
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+investigation_id	Investigation ID	Unique WP identifier (e.g., WP1_BullNet)		text	1		true	false	false	true	true	true		crc_bullnet_investigation	
+title	Investigation Title	Human-readable title for the WP		text	2		true	false	false	true	true	true		crc_bullnet_investigation	
+description	Description	Long description of the investigation / WP		textarea	3		false	false	false	true	true	false		crc_bullnet_investigation	
+lead_organisation	Lead Organisation	Institution leading the WP (name, ROR id preferred)		text	4		true	false	false	true	true	true		crc_bullnet_investigation	
+start_date	Start Date	YYYY-MM-DD		date	5	yyyy-MM-dd	true	false	false	true	true	true		crc_bullnet_investigation	
+end_date	End Date	YYYY-MM-DD		date	6	yyyy-MM-dd	true	false	false	true	true	true		crc_bullnet_investigation	
+funding_source	Funding Source	Grant/funder information (Horizon MSCA + grant id)		text	7		false	false	false	true	true	true		crc_bullnet_investigation	
+contributors	Contributors	List of contributors (role; name; ORCID)		textarea	8		false	false	false	true	false	false		crc_bullnet_investigation	
+related_publications	Related Publications	DOIs or citations		text	9		false	false	false	true	false	false		crc_bullnet_investigation	
+keywords	Keywords	Controlled keywords for discovery (comma-separated)		text	10		true	false	true	true	false	false		crc_bullnet_investigation	
