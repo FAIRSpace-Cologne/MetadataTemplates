@@ -10,3 +10,7 @@
 	bullnet_sample_detailed_v1_storageLocation	Storage Location	Biobank / freezer / position.		text	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_sample_detailed_v1	
 	bullnet_sample_detailed_v1_qcStatus	QC Status	Quality control status of the sample.		none	7		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		bullnet_sample_detailed_v1	
 	bullnet_sample_detailed_v1_files	Linked Files	Associated raw or derived data files.		textarea	8		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_sample_detailed_v1	
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	bullnet_sample_detailed_v1_qcStatus	Pass	QC_PASS	0												
+	bullnet_sample_detailed_v1_qcStatus	Warning	QC_WARN	1												
+	bullnet_sample_detailed_v1_qcStatus	Fail	QC_FAIL	2												
