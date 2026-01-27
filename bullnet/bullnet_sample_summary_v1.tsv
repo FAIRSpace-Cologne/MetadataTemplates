@@ -10,7 +10,7 @@
 	bullnet_sample_summary_v1_storageType	Storage Type	Type of storage (fresh, cryo, etc.).		none	6		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE		bullnet_sample_summary_v1	
 	bullnet_sample_summary_v1_extender	Storage Media / Extender	Extender or storage medium used.		text	7		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_sample_summary_v1	
 	bullnet_sample_summary_v1_container	Container Type	Physical container used (e.g. straw, vial).		none	8		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		bullnet_sample_summary_v1	
-	bullnet_sample_summary_v1_controls	Controls Applied	Experimental controls applied to samples.		textarea	9		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		bullnet_sample_summary_v1	
+	bullnet_sample_summary_v1_controls	Controls Applied	Experimental controls applied to samples.		textarea	9		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		bullnet_sample_summary_v1	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	bullnet_sample_summary_v1_sampleType	Semen	OBI_0100051	0												
 	bullnet_sample_summary_v1_sampleType	Cryopreserved Semen	OBI_0000919	1												
