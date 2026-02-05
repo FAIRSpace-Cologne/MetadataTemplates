@@ -1,0 +1,13 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	assay_manual_qc	assay_manual_qc	Assay: Manual & QC													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	assay_manual_qc_Staining_Tech	Staining_Tech	Staining_Tech value	none	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		assay_manual_qc	
+	assay_manual_qc_Magnification	Magnification	Magnification value	none	text	1		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		assay_manual_qc	
+	assay_manual_qc_Min_sperm_counted	Min_sperm_counted	Min_sperm_counted value	none	text	2		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		assay_manual_qc	
+	assay_manual_qc_Classif_criteria	Classif_criteria	Classif_criteria value	none	text	3		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		assay_manual_qc	
+	assay_manual_qc_Viab_measur_method	Viab_measur_method	Viab_measur_method value	none	text	4		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_manual_qc	
+	assay_manual_qc_Mot_measur_method	Mot_measur_method	Mot_measur_method value	none	text	5		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_manual_qc	
+	assay_manual_qc_Conc_measur_method	Conc_measur_method	Conc_measur_method value	none	text	6		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_manual_qc	
+	assay_manual_qc_MotAF_measur_method	MotAF_measur_method	MotAF_measur_method value	none	text	7		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_manual_qc	
+	assay_manual_qc_ViabAF_measur_method	ViabAF_measur_method	ViabAF_measur_method value	none	text	8		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_manual_qc	
+	assay_manual_qc_ConcAF_measur_method	ConcAF_measur_method	ConcAF_measur_method value	none	text	9		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_manual_qc	
