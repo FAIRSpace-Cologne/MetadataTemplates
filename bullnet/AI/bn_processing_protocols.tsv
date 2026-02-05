@@ -1,13 +1,18 @@
 #metadataBlock	name	dataverseAlias	displayName													
-	investigation_context	investigation_context	Investigation Context													
+	processing_protocols	processing_protocols	Processing Protocols													
 #datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	investigation_context_Center_ID	Center_ID	Center_ID value	none	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Center_name	Center_name	Center_name value	none	text	1		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Contact_name	Contact_name	Contact_name value	none	text	2		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Contact_email	Contact_email	Contact_email value	none	text	3		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Country	Country	Country value	none	text	4		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Data_License	Data_License	Data_License value	none	text	5		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Time_period_start	Time_period_start	Time_period_start value	none	text	6		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Time_period_end	Time_period_end	Time_period_end value	none	text	7		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Location_ID	Location_ID	Location_ID value	none	text	8		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Production_site	Production_site	Production_site value	none	text	9		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
+	proc_proto_Collection_method	Collection_method	Method used for semen collection	none	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_extender_type	extender_type	Type of extender used	none	text	1		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_Extender_manufacturer	Extender_manufacturer	Manufacturer of the extender	none	text	2		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_Cryoprotectant_type	Cryoprotectant_type	Type of cryoprotectant used	none	text	3		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_Cryoprotectant_concentration_pct	Cryoprotectant_concentration_pct	Concentration of cryoprotectant (%)	none	text	4		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_Buffer_osmolarity_mOsm	Buffer_osmolarity_mOsm	Osmolarity of the buffer (mOsm)	none	text	5		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_Buffer_pH	Buffer_pH	pH level of the buffer	none	text	6		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_equilibration_time_hr	equilibration_time_hr	Equilibration duration (hours)	none	text	7		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_equilibration_temp	equilibration_temp	Equilibration temperature	none	text	8		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_cooling_rate	cooling_rate	Rate of cooling	none	text	9		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_freezing_temp	freezing_temp	Temperature during freezing	none	text	10		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_Freezing_rate	Freezing_rate	Rate of freezing	none	text	11		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_thaw_method	thaw_method	Method used for thawing	none	text	12		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_thaw_temperature	thaw_temperature	Temperature used for thawing	none	text	13		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
+	proc_proto_thaw_rate	thaw_rate	Rate of thawing	none	text	14		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		processing_protocols	
