@@ -12,4 +12,4 @@
 	production_protocols_equilibration_temp	equilibration_temp	equilibration_temp value	none	text	8		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		production_protocols	
 	production_protocols_cooling_rate	cooling_rate	cooling_rate value	none	text	9		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		production_protocols	
 	production_protocols_freezing_temp	freezing_temp	freezing_temp value	none	text	10		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		production_protocols	
-	production_protocols_Freezing_rate	Freezing_rate	Freezing_rate value	none	text	11		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		production_protocols
+	production_protocols_Freezing_rate	Freezing_rate	Freezing_rate value	none	text	11		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		production_protocols	
