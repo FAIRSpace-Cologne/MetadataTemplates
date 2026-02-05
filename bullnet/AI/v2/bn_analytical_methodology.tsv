@@ -1,0 +1,9 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	analytical_methodology	analytical_methodology	Analytical Methodology													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	analyt_meth_Viab_measur_method	Viab_measur_method	Method for measuring viability (Fresh)	none	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		analytical_methodology	
+	analyt_meth_Mot_measur_method	Mot_measur_method	Method for measuring motility (Fresh)	none	text	1		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		analytical_methodology	
+	analyt_meth_Conc_measur_method	Conc_measur_method	Method for measuring concentration (Fresh)	none	text	2		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		analytical_methodology	
+	analyt_meth_MotAF_measur_method	MotAF_measur_method	Method for measuring motility (After Freeze)	none	text	3		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		analytical_methodology	
+	analyt_meth_ViabAF_measur_method	ViabAF_measur_method	Method for measuring viability (After Freeze)	none	text	4		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		analytical_methodology	
+	analyt_meth_ConcAF_measur_method	ConcAF_measur_method	Method for measuring concentration (After Freeze)	none	text	5		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		analytical_methodology	
