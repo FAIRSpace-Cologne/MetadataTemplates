@@ -9,5 +9,5 @@
 	investigation_context_Data_License	Data_License	Data_License value	none	text	5		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
 	investigation_context_Time_period_start	Time_period_start	Time_period_start value	none	text	6		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
 	investigation_context_Time_period_end	Time_period_end	Time_period_end value	none	text	7		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Location_ID	Location_ID	Location_ID value	none	text	8		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	  
+	investigation_context_Location_ID	Location_ID	Location_ID value	none	text	8		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	   
 	investigation_context_Production_site	Production_site	Production_site value	none	text	9		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context
