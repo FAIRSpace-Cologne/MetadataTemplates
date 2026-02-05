@@ -1,0 +1,13 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	administrative_provenance	administrative_provenance	Administrative & Provenance													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	admin_prov_Center_ID	Center_ID	Unique identifier for the center	none	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		administrative_provenance	
+	admin_prov_Center_name	Center_name	Name of the center	none	text	1		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		administrative_provenance	
+	admin_prov_Country	Country	Country of the center	none	text	2		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		administrative_provenance	
+	admin_prov_Data_License	Data_License	License applied to the data	none	text	3		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		administrative_provenance	
+	admin_prov_Time_period_start	Time_period_start	Start of data collection period	none	text	4		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		administrative_provenance	
+	admin_prov_Time_period_end	Time_period_end	End of data collection period	none	text	5		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		administrative_provenance	
+	admin_prov_Contact_name	Contact_name	Primary contact person	none	text	6		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		administrative_provenance	
+	admin_prov_Contact_email	Contact_email	Contact email address	none	text	7		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		administrative_provenance	
+	admin_prov_Location_ID	Location_ID	Specific location identifier	none	text	8		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		administrative_provenance	
+	admin_prov_Production_site	Production_site	Site of production	none	text	9		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		administrative_provenance	
