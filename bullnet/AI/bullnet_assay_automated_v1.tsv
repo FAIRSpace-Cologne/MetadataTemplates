@@ -16,4 +16,4 @@
 	assay_automated_VCL	VCL	VCL value	none	text	12		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
 	assay_automated_VSL	VSL	VSL value	none	text	13		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
 	assay_automated_STR	STR	STR value	none	text	14		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
-	assay_automated_ALH	ALH	ALH value	none	text	15		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated
+	assay_automated_ALH	ALH	ALH value	none	text	15		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
