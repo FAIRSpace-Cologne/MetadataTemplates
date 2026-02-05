@@ -1,13 +1,19 @@
-#metadataBlock	name	dataverseAlias	displayName
-	investigation_context	investigation_context	Investigation Context
+#metadataBlock	name	dataverseAlias	displayName													
+	assay_automated	assay_automated	Assay: Automated (CASA)													
 #datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	investigation_context_Center_ID	Center_ID	Center_ID value	none	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Center_name	Center_name	Center_name value	none	text	1		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Contact_name	Contact_name	Contact_name value	none	text	2		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Contact_email	Contact_email	Contact_email value	none	text	3		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Country	Country	Country value	none	text	4		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Data_License	Data_License	Data_License value	none	text	5		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Time_period_start	Time_period_start	Time_period_start value	none	text	6		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Time_period_end	Time_period_end	Time_period_end value	none	text	7		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Location_ID	Location_ID	Location_ID value	none	text	8		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
-	investigation_context_Production_site	Production_site	Production_site value	none	text	9		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context
+	assay_automated_Inst_brand	Inst_brand	Inst_brand value	none	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		assay_automated	
+	assay_automated_Inst_software_version	Inst_software_version	Inst_software_version value	none	text	1		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		assay_automated	
+	assay_automated_Illumination	Illumination	Illumination value	none	text	2		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		assay_automated	
+	assay_automated_Photometer_range	Photometer_range	Photometer_range value	none	text	3		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		assay_automated	
+	assay_automated_Frame_rate	Frame_rate	Frame_rate value	none	text	4		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		assay_automated	
+	assay_automated_Temp_control	Temp_control	Temp_control value	none	text	5		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		assay_automated	
+	assay_automated_Cell_size	Cell_size	Cell_size value	none	text	6		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
+	assay_automated_Min_head_intensity	Min_head_intensity	Min_head_intensity value	none	text	7		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
+	assay_automated_Min_tail_length	Min_tail_length	Min_tail_length value	none	text	8		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
+	assay_automated_Input_vol	Input_vol	Input_vol value	none	text	9		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
+	assay_automated_Tech_reps	Tech_reps	Tech_reps value	none	text	10		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
+	assay_automated_VAP	VAP	VAP value	none	text	11		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
+	assay_automated_VCL	VCL	VCL value	none	text	12		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
+	assay_automated_VSL	VSL	VSL value	none	text	13		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
+	assay_automated_STR	STR	STR value	none	text	14		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated	
+	assay_automated_ALH	ALH	ALH value	none	text	15		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		assay_automated
