@@ -1,0 +1,13 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	investigation_context	investigation_context	Investigation Context													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	investigation_context_Center_ID	Center_ID	Center_ID value	none	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
+	investigation_context_Center_name	Center_name	Center_name value	none	text	1		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
+	investigation_context_Contact_name	Contact_name	Contact_name value	none	text	2		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
+	investigation_context_Contact_email	Contact_email	Contact_email value	none	text	3		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
+	investigation_context_Country	Country	Country value	none	text	4		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
+	investigation_context_Data_License	Data_License	Data_License value	none	text	5		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
+	investigation_context_Time_period_start	Time_period_start	Time_period_start value	none	text	6		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
+	investigation_context_Time_period_end	Time_period_end	Time_period_end value	none	text	7		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
+	investigation_context_Location_ID	Location_ID	Location_ID value	none	text	8		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
+	investigation_context_Production_site	Production_site	Production_site value	none	text	9		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		investigation_context	
