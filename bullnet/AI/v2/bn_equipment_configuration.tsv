@@ -1,0 +1,24 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	equipment_configuration	equipment_configuration	Equipment Configuration													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	equip_config_Inst_brand	Inst_brand	Brand of the instrument (CASA)	none	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Inst_software_version	Inst_software_version	Software version of the instrument	none	text	1		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Illumination	Illumination	Illumination settings	none	text	2		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Photometer_range	Photometer_range	Range of the photometer	none	text	3		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Frame_rate	Frame_rate	Frame rate setting	none	text	4		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Temp_control	Temp_control	Temperature control settings	none	text	5		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Input_vol	Input_vol	Input volume used	none	text	6		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Tech_reps	Tech_reps	Technical replicates count	none	text	7		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Cell_size	Cell_size	Cell size setting	none	text	8		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Min_head_intensity	Min_head_intensity	Minimum head intensity setting	none	text	9		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Min_tail_length	Min_tail_length	Minimum tail length setting	none	text	10		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Staining	Staining	Staining used for CASA	none	text	11		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_VAP	VAP	Definition of Average Path Velocity	none	text	12		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_VCL	VCL	Definition of Curvilinear Velocity	none	text	13		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_VSL	VSL	Definition of Straight Line Velocity	none	text	14		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_STR	STR	Definition of Straightness	none	text	15		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_ALH	ALH	Definition of Amplitude of Lateral Head Displacement	none	text	16		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Staining_Tech	Staining_Tech	Staining technique for morphology	none	text	17		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Magnification	Magnification	Magnification level	none	text	18		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Min_sperm_counted	Min_sperm_counted	Minimum sperm counted	none	text	19		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
+	equip_config_Classif_criteria	Classif_criteria	Classification criteria used	none	text	20		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		equipment_configuration	
