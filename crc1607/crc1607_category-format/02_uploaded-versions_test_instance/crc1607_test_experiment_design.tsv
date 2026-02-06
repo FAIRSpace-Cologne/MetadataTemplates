@@ -1,0 +1,52 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	crc1607_experiment_design	crc1607_testing	CRC1607 – Experiment Design													
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	crc1607_exp_design_experimentIdentifier	Experiment ID	A code that the researcher assigns to the experiment or study.	E.g. UzK-SAC-E250731-01	text	0		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		crc1607_experiment_design	http://purl.obolibrary.org/obo/NCIT_C70663
+	crc1607_exp_design_responseVariable	Experimental Response Variables	The variables that are measured during the experiment and, if applicable, the molecules that are the focus of study.		none	10		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1607_experiment_design	
+	crc1607_exp_design_measurements	Measurements	The measurements applied (e.g. differential gene expression, presence/absence, etc.).	E.g. Differential gene expression	text	1		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	crc1607_exp_design_responseVariable	crc1607_experiment_design	
+	crc1607_exp_design_targetMolecules	Molecular Targets	List the names of molecules that are the main focus of study (e.g. genes, proteins, protein complexes).	E.g. COI gene	text	2		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1607_exp_design_responseVariable	crc1607_experiment_design	
+	crc1607_exp_design_factors	Experimental Factors	Treatments or conditions that are defined by the experimenter (e.g. treatments, genotypes, conditions, etc.).	E.g. Age, Sex, Strain, Temperature	text	11		TRUE	TRUE	TRUE	FALSE	TRUE	FALSE		crc1607_experiment_design	http://purl.obolibrary.org/obo/NCIT_C164385
+	crc1607_exp_design_otherFactors	Other Experimental Factor	If Other was selected in Experimental Factors, list any other factor types that were used in this Dataset.	E.g. Specific treatments	text	12		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1607_experiment_design	
+	crc1607_exp_design_medicalCondition	Medical Condition	Disease or physical conditions that are studied.	E.g. Glaucoma	text	20		TRUE	TRUE	TRUE	FALSE	TRUE	FALSE		crc1607_experiment_design	
+	crc1607_exp_design_otherMedCondition	Other Medical Condition	If Other was selected in Medical Condition, list any other factor types that were used in this Dataset.	E.g. Alzheimer’s-Related Retinal Changes	text	21		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		crc1607_experiment_design	
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	crc1607_exp_design_factors	Age	EFO_0000246	0												
+	crc1607_exp_design_factors	Cell Line	CLO_0000031	1												
+	crc1607_exp_design_factors	Cell Type	EFO_0000324	2												
+	crc1607_exp_design_factors	Compound Based Treatment	EFO_0000369	3												
+	crc1607_exp_design_factors	Developmental Stage	EFO_0000399	4												
+	crc1607_exp_design_factors	Disease State	OBI_0001293	5												
+	crc1607_exp_design_factors	Drug Susceptibility	IDO_0000469	6												
+	crc1607_exp_design_factors	Genetic Characteristics	OBI_0001404	7												
+	crc1607_exp_design_factors	Organism	OBI_0000690	9												
+	crc1607_exp_design_factors	Passage	NCIT_C54573	10												
+	crc1607_exp_design_factors	Sex	NCIT_C28421	11												
+	crc1607_exp_design_factors	Strain	EFO_0005135	12												
+	crc1607_exp_design_factors	Time Point	EFO_0000724	13												
+	crc1607_exp_design_factors	Tissue	NCIT_C12801	14												
+	crc1607_exp_design_factors	Other	OTHER_FACTOR	15												
+	crc1607_exp_design_medicalCondition	Acute keratoconus	MONDO_0000943	0
+	crc1607_exp_design_medicalCondition	Age-related macular degeneration (AMD)	MONDO_0005150	1
+	crc1607_exp_design_medicalCondition	Aniridia	MONDO_0019172	2
+	crc1607_exp_design_medicalCondition	Conjunctival melanoma	MONDO_0002096	3
+	crc1607_exp_design_medicalCondition	Corneal dystrophy	MONDO_0018102	4
+	crc1607_exp_design_medicalCondition	Corneal infection (Bacterial keratitis)	MONDO_0023865	5
+	crc1607_exp_design_medicalCondition	Diabetic retinopathy	MONDO_0005266	6
+	crc1607_exp_design_medicalCondition	Dry eye	MONDO_0006733	7
+	crc1607_exp_design_medicalCondition	Ectrodactyly-ectodermal dysplasia-clefting syndrome (EEC Syndrome)	MONDO_0010004	8
+	crc1607_exp_design_medicalCondition	Eye allergy	MONDO_0005551	9
+	crc1607_exp_design_medicalCondition	Fuchs endothelial corneal dystrophy (FECD)	MONDO_0005321	10
+	crc1607_exp_design_medicalCondition	Glaucoma	MONDO_0005041	11
+	crc1607_exp_design_medicalCondition	Ocular graft versus host disease (oGVHD)	NCIT_C158730	12
+	crc1607_exp_design_medicalCondition	Hereditary retinal dystrophy	MONDO_0019118	13
+	crc1607_exp_design_medicalCondition	Herpes keratitis	MONDO_0015288	14
+	crc1607_exp_design_medicalCondition	Limbal stem cell deficiency	MONDO_0025667	15
+	crc1607_exp_design_medicalCondition	Neurotrophic keratopathy	MONDO_0015290	16
+	crc1607_exp_design_medicalCondition	Ocular cicatricial pemphigoid (OCP)	MONDO_0008109	17
+	crc1607_exp_design_medicalCondition	Pterygium (Surfer eye)	MONDO_0005085	18
+	crc1607_exp_design_medicalCondition	Sjogren syndrome	MONDO_0010030	19
+	crc1607_exp_design_medicalCondition	Uveal melanoma	MONDO_0006486	20
+	crc1607_exp_design_medicalCondition	Uveitis	MONDO_0020283	21
+	crc1607_exp_design_medicalCondition	High-Risk corneal transplantation	HIGHRISK_COR_TRANSPLATATION	22
+	crc1607_exp_design_medicalCondition	Corneal neovascularization	MONDO_0006713	23
+	crc1607_exp_design_medicalCondition	Other
